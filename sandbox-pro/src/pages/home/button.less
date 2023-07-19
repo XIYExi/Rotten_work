@@ -1,0 +1,383 @@
+
+.min-h-6 {
+  min-height: 1.5rem;
+}
+.min-h-8 {
+  min-height: 2rem;
+}
+.min-h-12 {
+  min-height: 3rem;
+}
+.min-h-16 {
+  min-height: 4rem;
+}
+
+
+.rounded-btn {
+  border-radius: var(--rounded-btn, 0.5rem);
+}
+
+
+/*
+===========================================================
+====================== unstyled ===========================
+===========================================================
+*/
+
+.btn {
+
+  @apply inline-flex/*flex样式*/
+    flex-shrink-0/*固定元素，不会响应式挤压而变形*/
+    cursor-pointer select-none /*禁止鼠标样式和用户选择*/
+    flex-wrap/*自动换行*/
+    items-center justify-center /*flex内部元素居中*/
+    border-transparent text-center rounded-btn
+    transition duration-200 ease-in-out /*动画相关属性*/;
+
+  @apply h-12 px-4 text-sm min-h-12;
+  line-height: 1em;
+
+  /*disabled*/
+  &-disabled, &[disabled], &:disabled {
+    @apply pointer-events-none;
+  }
+
+  /*shapes*/
+  &-square {
+    @apply h-12 w-12 p-0;
+  }
+  &-circle {
+    @apply h-12 w-12 rounded-full p-0;
+  }
+}
+
+/*group*/
+.btn-group {
+  @apply inline-flex;
+  & > input[type='radio'].btn {
+    @apply appearance-none;
+  }
+  & > input[type='radio'].btn:before {
+    content: attr(data-title);
+  }
+}
+
+/*radio input and checkbox as button*/
+.btn:is(input[type='checkbox']),
+.btn:is(input[type='radio']) {
+  @apply appearance-none;
+}
+.btn:is(input[type='checkbox']):after,
+.btn:is(input[type='radio']):after {
+  // @apply content-[attr(aria-label)];
+}
+
+
+
+/*
+===========================================================
+======================== styled ===========================
+===========================================================
+*/
+.btn {
+  @apply font-semibold no-underline gap-2;
+  border-width: var(--rounded-btn, 1px);
+  animation: button-pop var(--animation-btn, 0.25s) ease-out;
+  text-transform: var(--btn-text-case, uppercase);
+  &:active:hover, &:active:focus {
+    animation: button-pop 0s ease-out;
+    transform: scale(var(--btn-focus-scale, 0.97));
+  }
+
+  /*default*/
+  & {
+    @apply border-base-200 bg-base-200 text-base-content no-underline outline-base-content;
+    @media (hover: hover) {
+      &:hover {
+        @apply border-base-300 bg-base-300;
+      }
+    }
+    &-active {
+      @apply border-base-300 bg-base-300;
+    }
+    &:focus-visible {
+      @apply outline outline-2 outline-offset-2;
+    }
+  }
+
+  /*brand colors*/
+  &-primary {
+    @apply border-primary bg-primary text-primary-content outline-primary;
+    @media (hover: hover) {
+      &:hover{
+        @apply border-primary-focus bg-primary-focus;
+      }
+    }
+    &.btn-active {
+    @apply border-primary-focus bg-primary-focus;
+    }
+  }
+  &-secondary {
+    @apply border-secondary bg-secondary text-secondary-content outline-secondary;
+    @media (hover: hover){
+      &:hover {
+        @apply border-secondary-focus bg-secondary-focus;
+      }
+    }
+    &.btn-active {
+      @apply border-secondary-focus bg-secondary-focus;
+    }
+  }
+  &-accent {
+    @apply border-accent bg-accent text-accent-content outline-accent;
+    @media (hover: hover) {
+      &:hover {
+        @apply border-accent-focus bg-accent-focus;
+      }
+    }
+    &.btn-active {
+      @apply border-accent-focus bg-accent-focus;
+    }
+  }
+  &-neutral {
+    @apply border-neutral bg-neutral text-neutral-content outline-neutral;
+    @media (hover: hover) {
+      &:hover {
+        @apply border-neutral-focus bg-neutral-focus;
+      }
+    }
+    &.btn-active {
+      @apply border-neutral-focus bg-neutral-focus;
+    }
+  }
+
+  /*state 状态*/
+  &-info {
+  @apply border-info bg-info text-info-content outline-info;
+    @media (hover: hover) {
+      &:hover {
+      @apply border-info bg-info;
+      }
+    }
+    &.btn-active {
+    @apply border-info bg-info;
+    }
+  }
+  &-success {
+  @apply border-success bg-success text-success-content outline-success;
+    @media (hover: hover) {
+      &:hover {
+      @apply border-success bg-success;
+      }
+    }
+    &.btn-active {
+    @apply border-success bg-success;
+    }
+  }
+  &-warning {
+  @apply border-warning bg-warning text-warning-content outline-warning;
+    @media (hover: hover) {
+      &:hover {
+      @apply border-warning bg-warning;
+      }
+    }
+    &.btn-active {
+    @apply border-warning bg-warning;
+    }
+  }
+  &-error {
+  @apply border-error bg-error text-error-content outline-error;
+    @media (hover: hover) {
+      &:hover {
+      @apply border-error bg-error;
+      }
+    }
+    &.btn-active {
+    @apply border-error bg-error;
+    }
+  }
+
+  /*glass*/
+  &.glass {
+    @apply shadow-none outline-current;
+    @media (hover: hover) {
+      &:hover {
+        --glass-opacity: 25%;
+        --glass-border-opacity: 15%;
+      }
+    }
+    &.btn-active {
+      --glass-opacity: 25%;
+      --glass-border-opacity: 15%;
+    }
+  }
+
+  /*ghost 透明背景*/
+  &-ghost {
+    @apply border border-transparent bg-transparent text-current shadow-none outline-current;
+    @media (hover: hover) {
+      &:hover {
+      @apply border-opacity-0 bg-base-content bg-opacity-20;
+      }
+    }
+    &.btn-active {
+    @apply border-opacity-0 bg-base-content bg-opacity-20;
+    }
+  }
+
+  /*超链接*/
+  &-link {
+  @apply border-transparent bg-transparent text-primary underline shadow-none outline-current;
+    @media (hover: hover) {
+      &:hover {
+      @apply border-transparent bg-transparent underline;
+      }
+    }
+    &.btn-active {
+    @apply border-transparent bg-transparent underline;
+    }
+  }
+
+  /*outline 线框风格，无内部填充*/
+  &-outline {
+  @apply border-current bg-transparent text-base-content shadow-none;
+    @media (hover: hover) {
+      &:hover {
+      @apply border-base-content bg-base-content text-base-100;
+      }
+    }
+    &.btn-active {
+    @apply border-base-content bg-base-content text-base-100;
+    }
+    &.btn-primary {
+    @apply text-primary;
+      @media (hover: hover) {
+        &:hover {
+        @apply border-primary-focus bg-primary-focus text-primary-content;
+        }
+      }
+      &.btn-active {
+      @apply border-primary-focus bg-primary-focus text-primary-content;
+      }
+    }
+    &.btn-secondary {
+    @apply text-secondary;
+      @media (hover: hover) {
+        &:hover {
+        @apply border-secondary-focus bg-secondary-focus text-secondary-content;
+        }
+      }
+      &.btn-active {
+      @apply border-secondary-focus bg-secondary-focus text-secondary-content;
+      }
+    }
+    &.btn-accent {
+    @apply text-accent;
+      @media (hover: hover) {
+        &:hover {
+        @apply border-accent-focus bg-accent-focus text-accent-content;
+        }
+      }
+      &.btn-active {
+      @apply border-accent-focus bg-accent-focus text-accent-content;
+      }
+    }
+    &.btn-success {
+    @apply text-success;
+      @media (hover: hover) {
+        &:hover {
+        @apply border-success bg-success text-success-content;
+        }
+      }
+      &.btn-active {
+      @apply border-success bg-success text-success-content;
+      }
+    }
+    &.btn-info {
+    @apply text-info;
+      @media (hover: hover) {
+        &:hover {
+        @apply border-info bg-info text-info-content;
+        }
+      }
+      &.btn-active {
+      @apply border-info bg-info text-info-content;
+      }
+    }
+    &.btn-warning {
+    @apply text-warning;
+      @media (hover: hover) {
+        &:hover {
+        @apply border-warning bg-warning text-warning-content;
+        }
+      }
+      &.btn-active {
+      @apply border-warning bg-warning text-warning-content;
+      }
+    }
+    &.btn-error {
+    @apply text-error;
+      @media (hover: hover) {
+        &:hover {
+        @apply border-error bg-error text-error-content;
+        }
+      }
+      &.btn-active {
+      @apply border-error bg-error text-error-content;
+      }
+    }
+  }
+
+  /*禁用 disabled*/
+  &.btn-disabled,
+  &[disabled],
+  &:disabled {
+  @apply border-opacity-0 bg-neutral bg-opacity-20 text-base-content text-opacity-20;
+  }
+  @media (hover: hover) {
+    &-disabled:hover,
+    &[disabled]:hover,
+    &:disabled:hover {
+    @apply border-opacity-0 bg-neutral bg-opacity-20 text-base-content text-opacity-20;
+    }
+  }
+}
+
+
+/* group */
+.btn-group {
+  & > input[type="radio"]:checked.btn,
+  & > .btn-active {
+  @apply border-primary bg-primary text-primary-content;
+    &:focus-visible {
+    @apply outline outline-2 outline-primary;
+    }
+  }
+}
+
+/* radio input and checkbox as button */
+.btn:is(input[type="checkbox"]:checked),
+.btn:is(input[type="radio"]:checked) {
+@apply border-primary bg-primary text-primary-content;
+  @media (hover: hover) {
+    &:hover {
+    @apply border-primary-focus bg-primary-focus;
+    }
+  }
+  &:focus-visible {
+  @apply outline-primary;
+  }
+}
+
+/*点击动画：缩放*/
+@keyframes button-pop {
+  0% {
+    transform: scale(var(--btn-focus-scale, 0.98));
+  }
+  40% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
