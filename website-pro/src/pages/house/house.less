@@ -292,3 +292,29 @@
   -webkit-animation: draw 2s ease-in-out 1s forwards infinite;
   animation: draw 2s ease-in-out 1s forwards infinite;
 }
+
+/*parallax box位置*/
+.hero-star {
+  top: auto !important;
+}
+
+@media screen and (min-width: 992px) {
+  .hero-star {
+    left: 30px !important;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .hero-star {
+    left: 50px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero-star {
+    left: 60px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .hero-star {
+    display: none;
+  }
+}
