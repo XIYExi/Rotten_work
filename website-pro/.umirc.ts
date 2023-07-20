@@ -14,8 +14,8 @@ export default defineConfig({
           path: '/house',
           component: '@/pages/house/index',
           routes: [{
-            path: '/',
-            component: '@/pages/house/Home01'
+            path: '/house',
+            component: '@/pages/house/Home01/index'
           }]
         }
       ]
