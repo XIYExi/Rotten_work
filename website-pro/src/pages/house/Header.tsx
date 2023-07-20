@@ -54,14 +54,14 @@ export default function HeaderComponent() {
   // @ts-ignore
   useEffect(async () => {
     const { default: Graph } = await import('@/assets/data/HeaderNavData');
-    console.log(Graph)
+    // console.log(Graph)
     setNavItemData(Graph.NavData);
   }, [])
 
 
   return (
     <header id='stick-header' className='absolute left-0 top-[15px] lg:top-[30px] xl:top-[45px] w-full z-10'>
-      <div className='container mx-auto'>
+      <div className='my-container mx-auto'>
         <div className='grid grid-cols-12'>
           <div className='col-span-12'>
 

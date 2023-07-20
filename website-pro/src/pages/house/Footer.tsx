@@ -3,7 +3,6 @@ import logo from '@/assets/image/logo/logo.svg';
 import {ColumnItemProps, FooterItemProps} from "@/pages/house/type";
 
 
-
 export default function FooterComponent() {
 
 
@@ -17,7 +16,7 @@ export default function FooterComponent() {
   return(
     <footer className='footer bg-[#ECFAF7] pt-[80px] lg:pt-[200px] pb-30 md:pb-[80px] lg:pb-[110px] font-light bg-no-repeat bg-image'>
 
-      <div className="container mx-auto">
+      <div className="my-container mx-auto">
         <div className="grid grid-cols-12 gap-x-[30px] mb-[-30px]">
 
           {/*分栏 */}
