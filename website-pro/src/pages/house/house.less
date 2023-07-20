@@ -318,3 +318,18 @@
     display: none;
   }
 }
+
+/*搜索条tab nav*/
+.tab-nav .active button {
+  color: rgba(1 100 80);
+}
+.tab-nav li.active button:before{
+  width: 100%;
+  background-color: rgba(255 101 0);
+}
+.tab-nav button:hover::before {
+  left: 0px;
+  right: auto;
+  width: 100%;
+  transition: width 0.3s ease-in;
+}
