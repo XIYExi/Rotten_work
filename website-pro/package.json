@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "cross-env PORT=8017 umi dev && tailwindcss --watch",
+    "start:website-pro": "cross-env PORT=8017 umi dev && tailwindcss --watch",
     "build": "umi build",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
