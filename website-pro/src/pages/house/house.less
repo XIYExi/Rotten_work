@@ -52,9 +52,11 @@
   padding-left: 15px;
 }
 
-@media (min-width: 320px) {
+
+
+@media (min-width: 320px) and (max-width: 576px) {
   .my-container {
-    max-width: 320px;
+    max-width: 576px;
   }
 }
 @media (min-width: 576px) {
@@ -353,12 +355,114 @@
 }
 .advanced-search-hidden.active {
   overflow: visible;
+  max-height: 107px;
 }
 
 
+.advanced-search-list {
+  width: 100%;
+  padding-right: 15px;
+}
+
+@media (min-width: 576px) {
+  .advanced-search-list {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .advanced-search-list {
+    width: 20%;
+  }
+}
+.advanced-search-list.search-list:nth-child(3) {
+  margin-right: 0px;
+  border-right-width: 0px;
+}
+
+.advanced-search-list.search-list:last-child {
+  padding-right: 0px;
+}
+
+@media (min-width: 992px) {
+  .advanced-search-list.search-list:last-child {
+    width: 260px;
+  }
+}
+@media (min-width: 1280px) {
+  .advanced-search-list.search-list:last-child {
+    width: 270px;
+  }
+}
+
+.search-btn {
+  border-radius: 15px;
+  background-color: rgb(255 101 0);
+  padding: 5px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.search-btn:hover {
+  background-color: rgb(1 100 80);
+}
+
+@media (min-width: 768px) {
+  .search-btn {
+    padding: 10px;
+  }
+}
+@media (min-width: 1280px) {
+  .search-btn {
+    padding: 20px;
+  }
+}
+
+.search-properties-btn {
+  border-radius: 10px;
+  background-color: rgb(255 246 240);
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1;
+  color: rgb(255 101 0);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.search-properties-btn:hover {
+  background-color: rgb(1 100 80);
+  color: rgb(255 255 255);
+}
+
+@media (min-width: 1280px) {
+  .search-properties-btn {
+    width: 100%;
+  }
+
+  .search-properties-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .search-properties-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .search-properties-btn {
+    font-size: 22px;
+  }
+}
 
 
+.tab-content {
+  display: none;
+}
 
+.tab-content.active {
+  display: block;
+}
 
 
 
