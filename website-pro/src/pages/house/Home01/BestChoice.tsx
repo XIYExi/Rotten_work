@@ -45,6 +45,7 @@ const Card = (props: CardProps) => {
 
   return(
     <Fragment>
+
       <div>
         <div className='text-center'>
           <img src={src} />
