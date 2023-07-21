@@ -13,7 +13,7 @@ import 'swiper/swiper.css';
 import Parallax from 'parallax-js';
 
 
-export default function HomePageIndex() {
+export default function HomePage() {
 
 
   useEffect(() => {

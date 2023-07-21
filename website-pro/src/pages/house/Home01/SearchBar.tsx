@@ -1,3 +1,8 @@
+/**
+ * @Description: 房地产搜索条
+ * @Author: xiye
+ * @date: 2023/7/20 ~ 203/7/21
+ */
 import React, {Fragment, ReactNode, useState} from "react";
 import {ReactComponent as SearchSvgIcon} from '@/assets/image/search/search.svg';
 import classnames from "classnames";
@@ -20,7 +25,7 @@ const SearchBarButton = ({ children, onClick, ...restProps }: any) => (
   </button>
 )
 
-export default function SearchBarIndex() {
+export default function SearchBarPage() {
 
   const [svgActive, setSvgActive] = useState<boolean>(false);
   const [content, setContent] = useState<'Buy' | 'Sell' | 'Rent' | 'Co'>('Buy')

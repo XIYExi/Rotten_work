@@ -1,15 +1,17 @@
 import React from 'react';
-import HomePageIndex from "@/pages/house/Home01/HomePage";
-import SearchBarIndex from "@/pages/house/Home01/SearchBar";
+import HomePage from "@/pages/house/Home01/HomePage";
+import SearchBarPage from "@/pages/house/Home01/SearchBar";
 
 export default function Home01() {
 
   return(
     <>
       {/*首页*/}
-      <HomePageIndex />
+      <HomePage />
       {/*搜索条*/}
-      <SearchBarIndex />
+      <SearchBarPage />
+      {/*Best Choice 卡片*/}
+
 
     </>
   )
