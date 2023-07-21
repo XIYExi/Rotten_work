@@ -1,6 +1,12 @@
 import React, {Fragment, ReactNode, useState} from "react";
 import {ReactComponent as SearchSvgIcon} from '@/assets/image/search/search.svg';
 import classnames from "classnames";
+import area from '@/assets/image/icon/area.svg';
+import dollarCircle from '@/assets/image/icon/dollar-circle.svg';
+import location from '@/assets/image/icon/location.svg';
+import property from '@/assets/image/icon/property.svg';
+import searchOutline from '@/assets/image/icon/search-outline.svg';
+
 
 const SearchBarButton = ({ children, ...restProps }: any) => (
   <button
@@ -24,7 +30,7 @@ export default function SearchBarIndex() {
           <div className='grid grid-cols-12'>
             <div className='col-span-12 relative'>
 
-              <ul className='tab-nav inline-flex px-[150px] sm:px-[30px] py-[22px] border-l border-t border-r border-solid
+              <ul className='tab-nav inline-flex px-[15px] sm:px-[30px] py-[22px] border-l border-t border-r border-solid
               border-[#016450] border-opacity-25 rounded-tl-[15px] rounded-tr-[15px] bg-white'>
                 <li data-tab='buy' className='mr-[5px] sm:mr-[10px] md:mr-[46px] my-1 active'>
                   <SearchBarButton>bug</SearchBarButton>
@@ -50,7 +56,7 @@ export default function SearchBarIndex() {
             </div>
 
             <div className='col-span-12 selectricc-border-none'>
-              <SearchBarForm id='buy' active={svgActive}/>
+              <SearchBarForm id='buy' active={svgActive} content={true}/>
             </div>
           </div>
         </div>
@@ -64,6 +70,8 @@ export default function SearchBarIndex() {
 interface SearchBarFormProps {
   id: string;
   active:boolean;
+  /*tab-content的控制样式，用于判断渲染得是哪一个表单*/
+  content:boolean;
 }
 
 const SearchBarForm = (props: SearchBarFormProps) => {
@@ -71,25 +79,170 @@ const SearchBarForm = (props: SearchBarFormProps) => {
   const {
     id,
     active,
+    content = true,
   } = props;
 
 
   const FormWrapperClassName = classnames(
     /*自定义样式*/
-    'tab-content ',
+    'tab-content',
     /*tailwind样式*/
-    'bg-white border border-solid border-[#016450] border-opacity-25 ' +
+    'bg-white border border-solid border-[#016450] border-opacity-25 ',
     'rounded-bl-[15px] rounded-br-[15px] rounded-tr-[15px] px-[15px] sm:px-[30px] py-[40px]',
-    );
+    /*自定义样式*/
+    {
+      'active': content
+    });
 
   return (
     <Fragment>
       <div id={id} className={`${FormWrapperClassName}`}>
         <form action='#'>
-          <div className='advanced-search flex flex-wrapper items-center -mb-[45px]'>
+          <div className='advanced-search flex flex-wrap items-center'
+               style={{marginBottom:'-45px'}}
+          >
+            {/*location*/}
+            <SearchBarFormItem
+              active={undefined}
+              htmlFor={'location'}
+              src={location}
+              last={false}
+              hiddenList={false}
+              label='Location'
+            >
+              <input id='location' type='text' placeholder='Choose location'
+                     className='text-tiny placeholder:text-gray-400 leading-none font-light pr-3 focus:outline-none w-full'
+              />
+            </SearchBarFormItem>
 
+            {/*property*/}
+            <SearchBarFormItem
+              active={undefined}
+              htmlFor={'property'}
+              src={property}
+              last={false}
+              hiddenList={false}
+              label='Property Type'
+            >
+              <select name='property' id='property'
+                      className='nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer'
+              >
+                <option selected value='0'>Duplex House</option>
+                <option value='1'>Duplex House 1</option>
+                <option value='2'>Duplex House 2</option>
+                <option value='3'>Duplex House 3</option>
+              </select>
+            </SearchBarFormItem>
+
+            {/*dollar-circle*/}
+            <SearchBarFormItem
+              active={undefined}
+              htmlFor={'price'}
+              src={dollarCircle}
+              last={false}
+              hiddenList={false}
+              label='Price Range'
+            >
+              <select name='price' id='price'
+                      className='nice-select appearance-none bg-transparent focus:outline-none text-tiny font-light cursor-pointer'
+              >
+                <option selected value='0'>1500 USD</option>
+                <option value='1'>1600 USD</option>
+                <option value='2'>1700 USD</option>
+                <option value='3'>1800 USD</option>
+              </select>
+            </SearchBarFormItem>
+
+            {/*area*/}
+            <SearchBarFormItem
+              active={undefined}
+              htmlFor='property-size'
+              src={area}
+              last={true}
+              hiddenList={false}
+              label='Property Size'
+              lastNode={
+                <button
+                  className={`search-btn absolute right-0 lg:right-[-60px] xl:right-[-70px] ${active ? 'hidden': ''}`}>
+                  <img src={searchOutline} className="max-w-[30px] xl:w-auto" width="40" height="40" alt="svg icon" />
+                </button>
+              }
+            >
+              <select name='property-size' id='property-size'
+                      className='nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer'
+              >
+                <option selected value='0'>2500 Sqft</option>
+                <option value="1">2600 Sqft</option>
+                <option value="2">2700 Sqft</option>
+                <option value="3">2800 Sqft</option>
+              </select>
+            </SearchBarFormItem>
           </div>
-          <div className={`advanced-search-hidden flex flex-wrapper items-center mt-[45px] -mb-[45px] ${active ? 'active' : ''}`}>
+          <div className={`advanced-search-hidden flex flex-wrapper items-center mt-[45px] ${active ? 'active' : ''}`}
+               style={{marginBottom:'-45px'}}
+          >
+            {/*BedRooms*/}
+            <SearchBarFormItem
+              active={active}
+              htmlFor='bedrooms10'
+              label='Bedrooms'
+              src={location}
+              last={false}
+              hiddenList={true}
+            >
+              <select
+                name="property" id="bedrooms10"
+                className="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
+                <option selected value="0">Bedrooms</option>
+                <option value="1">kitchen</option>
+                <option value="2">dinning rooms</option>
+                <option value="3">Duplex House 3</option>
+              </select>
+            </SearchBarFormItem>
+
+            {/*BathRooms*/}
+            <SearchBarFormItem
+              active={active}
+              htmlFor='bathrooms10'
+              label='Bathrooms'
+              src={area}
+              last={false}
+              hiddenList={true}
+            >
+              <select
+                name="property" id="bathrooms10"
+                className="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
+                <option selected value="0">Duplex House</option>
+                <option value="1">Duplex House 1</option>
+                <option value="2">Duplex House 2</option>
+                <option value="3">Duplex House 3</option>
+              </select>
+            </SearchBarFormItem>
+
+            {/*BathRooms*/}
+            <SearchBarFormItem
+              active={active}
+              htmlFor='garage'
+              label='Garage'
+              src={dollarCircle}
+              last={false}
+              hiddenList={true}
+            >
+              <select
+                name="property" id="garage"
+                className="nice-select appearance-none bg-transparent text-tiny font-light cursor-pointer">
+                <option selected value="0">2 Garage</option>
+                <option value="1">3 Garage</option>
+                <option value="2">4 Garage</option>
+                <option value="3">5 Garage</option>
+              </select>
+            </SearchBarFormItem>
+
+            <div className="advanced-search-list flex items-center lg:border-r lg:border-[#D6D4D4] lg:mr-[40px]
+            xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px] search-list">
+              <button className="search-properties-btn">Search Properties</button>
+            </div>
+
 
           </div>
         </form>
@@ -99,14 +252,16 @@ const SearchBarForm = (props: SearchBarFormProps) => {
 }
 
 interface SearchBarFormItemProps {
-  active: boolean;
+  active?: boolean | undefined;
   htmlFor:string;
   children: ReactNode;
   /*是否为最后一个元素，第一行最后一个元素需要后置一个Button*/
   last?: boolean
+  lastNode?:ReactNode
   src?:string;
   /*是否为隐藏的子项，需要点击svgicon才会显示的内容*/
   hiddenList?:boolean;
+  label: string;
 }
 
 const SearchBarFormItem = (props: SearchBarFormItemProps) => {
@@ -118,6 +273,8 @@ const SearchBarFormItem = (props: SearchBarFormItemProps) => {
     last = false,
     src,
     hiddenList = false,
+    label,
+    lastNode
   } = props;
 
   const SearchBarItemClassName = classnames(`advanced-search-list flex items-center lg:border-r lg:border-[#D6D4D4] lg:mr-[40px] xl:mr-[50px] last:mr-0 last:border-r-0 mb-[45px]`,
@@ -128,14 +285,17 @@ const SearchBarFormItem = (props: SearchBarFormItemProps) => {
 
   return (
     <Fragment>
-      <div className={SearchBarItemClassName}>
+      <div className={`${SearchBarItemClassName} ${ active === true ? 'active' : ''}`}>
         <div className='mr-4 self-start flex-shrink-0'>
           <img src={src} width='24' height='24' alt='svg icon'/>
         </div>
         <div className='flex-1'>
-          <label htmlFor={htmlFor} className="font-recoleta block capitalize text-primary text-[18px] xl:text-[25px] leading-none mb-1">Location</label>
+          <label htmlFor={htmlFor} className="font-recoleta block capitalize text-primary text-[18px] xl:text-[25px] leading-none mb-1">
+            {label}
+          </label>
           {children}
         </div>
+        {lastNode}
       </div>
     </Fragment>
   )
