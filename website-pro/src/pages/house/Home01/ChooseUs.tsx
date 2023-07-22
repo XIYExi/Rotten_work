@@ -6,6 +6,9 @@
 import React, {useEffect, useRef} from "react";
 import Parallax from 'parallax-js';
 import aboutImage from '@/assets/image/about/about.png';
+import doller from '@/assets/image/icon/doller.png';
+import location from '@/assets/image/icon/location.png';
+import trusted from '@/assets/image/icon/trusted.png';
 
 export default function ChooseUsPage() {
 
@@ -21,7 +24,7 @@ export default function ChooseUsPage() {
         {/*会动的老登的照片*/}
         <div className='col-span-12 lg:col-span-7'>
           <div ref={ImageRef} data-relative-input='true'>
-            <img data-depth='0.1' src={aboutImage} className='2xl:ml-[-130px] mx-auto lg:max-w-[500px] xl:max-w-[729px]'
+            <img data-depth='0.1' src={aboutImage} className=' mx-auto lg:max-w-[500px] xl:max-w-[729px]'
                  loading='lazy' width='729' height='633' alt='about image'
             />
           </div>
@@ -39,7 +42,35 @@ export default function ChooseUsPage() {
             discount.
           </div>
           <div className='mt-[45px]' style={{marginBottom:'-10px'}}>
+            <div className='flex flex-wrap mb-5 lg:mb-10'>
+              <img src={doller} className='self-start mr-5' loading='lazy' width='50' height='50' alt='about Image'/>
+              <div className='flex-1'>
+                <h3 className='font-recoleta text-primary text-[22px] xl:text-lg capitalize mb-2'>Budget Friendly</h3>
+                <p className='max-w-[340px] font-thin'>Properties are most budget friendly so you have opportunity to find the best one</p>
+              </div>
+            </div>
 
+            <div className='flex flex-wrap mb-5 lg:mb-10'>
+              <img src={location} className='self-start mr-5' loading='lazy' width='50' height='50' alt='about Image'/>
+              <div className='flex-1'>
+                <h3 className='font-recoleta text-primary text-[22px] xl:text-lg capitalize mb-2'>
+                  Prime Location
+                </h3>
+                <p className="max-w-[340px] font-thin">Properties are most budget friendly so you have opportunity
+                  to find the best one</p>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap mb-5 lg:mb-10">
+              <img src={trusted} className="self-start mr-5" loading="lazy" width="50"
+                   height="50" alt="about Image" />
+              <div className="flex-1">
+                <h3 className="font-recoleta text-primary text-[22px] xl:text-lg capitalize mb-2">
+                  Trusted by Thousand</h3>
+                <p className="max-w-[340px] font-thin">
+                  Properties are most budget friendly so you have opportunity to find the best one</p>
+              </div>
+            </div>
           </div>
         </div>
 
