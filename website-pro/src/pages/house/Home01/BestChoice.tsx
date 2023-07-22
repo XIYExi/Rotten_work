@@ -72,7 +72,8 @@ export default function BestChoicePage() {
   )
 }
 
-interface CardProps {
+/*后面要用，封装出来*/
+export interface CardProps {
   src:string;
   title:string;
   address: string;
@@ -81,7 +82,7 @@ interface CardProps {
   meta:string;
 }
 
-const Card = (props: CardProps) => {
+export const Card = (props: CardProps) => {
 
   const {
     src,
