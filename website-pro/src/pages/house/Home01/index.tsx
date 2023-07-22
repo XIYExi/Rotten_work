@@ -3,6 +3,7 @@ import HomePage from "@/pages/house/Home01/HomePage";
 import SearchBarPage from "@/pages/house/Home01/SearchBar";
 import BestChoicePage from "@/pages/house/Home01/BestChoice";
 import ChooseUsPage from "@/pages/house/Home01/ChooseUs";
+import NewlyAddedPage from "@/pages/house/Home01/NewlyAdded";
 
 export default function Home01() {
 
@@ -16,6 +17,8 @@ export default function Home01() {
       <BestChoicePage />
       {/*关于界面*/}
       <ChooseUsPage />
+      {/*新增房屋页面*/}
+      <NewlyAddedPage />
 
     </>
   )
