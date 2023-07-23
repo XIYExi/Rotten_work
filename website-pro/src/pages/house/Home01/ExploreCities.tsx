@@ -31,7 +31,6 @@ export default function ExploreCitiesPage() {
       initialSlide: 2,
       slidesPerView: 3,
       centeredSlides: true,
-      effect:'coverflow',
       grabCursor: true,
       breakpoints: {
         320: {  //当屏幕宽度大于等于320
