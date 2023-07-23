@@ -477,7 +477,39 @@
 
 }
 
+.play-button:hover svg {
+  stroke-dasharray: 314;
+  stroke-dashoffset: 0;
+  -webkit-animation: offsetstroke 6s ease-out;
+  animation: offsetstroke 6s ease-out;
+}
+@-webkit-keyframes offsetstroke {
+  from {
+    stroke-dashoffset: 314;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes offsetstroke {
+  from {
+    stroke-dashoffset: 314;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
+.display-icon:before {
+  z-index: -10;
+}
 
+.stroke-secondary {
+  stroke: #FF6500;
+}
+
+.group:hover .group-hover\:stroke-white {
+  stroke: #fff;
+}
 
 
