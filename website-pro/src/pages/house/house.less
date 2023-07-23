@@ -549,6 +549,30 @@
 }
 
 .custom-testimonial-bg{
-
+  background-image: url("../../assets/image/testimonial/pattern.png");
 }
 
+.review-shadow-card {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  right: 30px;
+  z-index: 10;
+  transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  border-left-width: 20px;
+  border-color: rgb(255 101 0);
+  background-color: rgb(255 255 255);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1000ms;
+}
+
+@media (min-width: 576px) {
+  .review-shadow-card {
+    right: calc(100% - 470px);
+  }
+}
+
+.custom-before-zIndex:before{
+  z-index: -10;
+}
