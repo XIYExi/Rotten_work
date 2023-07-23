@@ -554,7 +554,7 @@
 
 .review-shadow-card {
   position: absolute;
-  top: 100%;
+  top: 150%;
   left: 0px;
   right: 30px;
   z-index: 10;
@@ -573,6 +573,61 @@
   }
 }
 
+.swiper-slide-visible .review-shadow-card {
+  top: 60%;
+  --tw-translate-y: -50%;
+  transform: var(--tw-transform);
+  --tw-shadow: 0px 2px 15px rgba(0,0,0,0.15);
+  --tw-shadow-colored: 0px 2px 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-delay: 500ms;
+}
+
+@media (min-width: 576px) {
+  .swiper-slide-visible .review-shadow-card {
+    top: 55%;
+  }
+}
+
 .custom-before-zIndex:before{
   z-index: -10;
+}
+
+
+.custom-h-before::before {
+  height: calc(100% - 50px);
+}
+
+
+.testimonial-section{
+  background-position-y: center;
+  background-position-x: 45%;
+}
+.testimonial-section::after {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255 255 255);
+  opacity: 60%;
+  content: "";
+}
+
+
+#swiper-modify{
+  -webkit-transform: translate3d(0px, 0, 0);
+  -moz-transform: translate3d(0px, 0, 0);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0);
+}
+
+/*修改左右移动navigation样式*/
+.swiper-button-prev::after {
+  transform: scale(0.4);
+}
+.swiper-button-next::after {
+  transform: scale(0.4);
 }
