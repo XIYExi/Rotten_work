@@ -5,6 +5,8 @@ import BestChoicePage from "@/pages/house/Home01/BestChoice";
 import ChooseUsPage from "@/pages/house/Home01/ChooseUs";
 import NewlyAddedPage from "@/pages/house/Home01/NewlyAdded";
 import VideoTourPage from "@/pages/house/Home01/VideoTour";
+import ExploreCitiesPage from "@/pages/house/Home01/ExploreCities";
+import TestimonialPage from "@/pages/house/Home01/Testimonial";
 
 export default function Home01() {
 
@@ -22,6 +24,10 @@ export default function Home01() {
       <NewlyAddedPage />
       {/*视频*/}
       <VideoTourPage />
+      {/*Cities页面*/}
+      <ExploreCitiesPage />
+      {/*客户感言页面*/}
+      <TestimonialPage />
 
     </>
   )
