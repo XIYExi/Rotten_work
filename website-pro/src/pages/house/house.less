@@ -217,6 +217,7 @@
 }
 
 
+
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -640,3 +641,21 @@
     margin-bottom: -75px!important;
   }
 }
+
+.custom-after-zIndex:after{
+  z-index: -20;
+}
+
+@media (min-width: 992px) {
+  .custom-lg-w:before{
+    width: calc(50% - 35px);
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .custom-xl-w:before{
+    width: calc(50% - 65px);
+  }
+}
+
