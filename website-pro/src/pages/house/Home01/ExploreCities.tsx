@@ -5,7 +5,6 @@
  */
 import React, {Fragment, useEffect, useState} from "react";
 import Swiper from "swiper";
-import 'swiper/swiper.css';
 import Image1 from '@/assets/image/cities/cities1.png';
 import Image2 from '@/assets/image/cities/cities2.png';
 import Image3 from '@/assets/image/cities/cities3.png';

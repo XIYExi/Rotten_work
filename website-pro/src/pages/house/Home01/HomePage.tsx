@@ -9,7 +9,6 @@ import cogs from '@/assets/image/hero/cogs.png';
 import hero from '@/assets/image/hero/hero.png';
 import shape2 from '@/assets/image/hero/shape2.svg';
 import Swiper from "swiper";
-import 'swiper/swiper.css';
 import Parallax from 'parallax-js';
 
 
