@@ -15,6 +15,10 @@ export default defineConfig({
           component: '@/pages/house/index',
           routes: [
             {
+              path: '/house/index-3',
+              component: '@/pages/house/Home03/index'
+            },
+            {
               path:'/house/index-2',
               component: '@/pages/house/Home02/index'
             },
