@@ -7,6 +7,9 @@ import NewlyAddedPage from "@/pages/house/Home01/NewlyAdded";
 import VideoTourPage from "@/pages/house/Home01/VideoTour";
 import ExploreCitiesPage from "@/pages/house/Home01/ExploreCities";
 import TestimonialPage from "@/pages/house/Home01/Testimonial";
+import PartnerPage from "@/pages/house/Home01/Partner";
+import AgentsPage from "@/pages/house/Home01/Agents";
+import BlogsPage from "@/pages/house/Home01/Blogs";
 
 export default function Home01() {
 
@@ -28,6 +31,12 @@ export default function Home01() {
       <ExploreCitiesPage />
       {/*客户感言页面*/}
       <TestimonialPage />
+      {/*合作伙伴*/}
+      <PartnerPage />
+      {/*代理人页面*/}
+      <AgentsPage />
+      {/*Blogs 页面*/}
+      <BlogsPage />
 
     </>
   )
