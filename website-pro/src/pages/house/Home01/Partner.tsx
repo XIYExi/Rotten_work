@@ -16,6 +16,7 @@ export default function PartnerPage() {
 
   useEffect(() => {
     new Swiper('.brand-slider .swiper', {
+      initialSlide: 0,
       loop: false,
       speed: 600,
       lazy: true,
@@ -58,7 +59,6 @@ export default function PartnerPage() {
 
             {/*滑动卡片*/}
             <div className='brand-slider'>
-
               <div className='swiper'>
                 <div className='swiper-wrapper'>
                   <PartnerSwiperItem src={brand1} href='#' />
