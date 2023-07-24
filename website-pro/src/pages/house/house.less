@@ -597,7 +597,9 @@
 .custom-h-before::before {
   height: calc(100% - 50px);
 }
-
+.custom-h-before2::before {
+  height: calc(100% - 60px);
+}
 
 .testimonial-section{
   background-position-y: center;
@@ -630,4 +632,11 @@
 }
 .swiper-button-next::after {
   transform: scale(0.4);
+}
+
+
+@media (min-width: 992px){
+  .modify-lg-bottom{
+    margin-bottom: -75px!important;
+  }
 }
