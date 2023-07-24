@@ -12,7 +12,7 @@ import brand5 from '@/assets/image/brand/brand5.png';
 import Swiper from "swiper";
 
 
-export default function PartnerPage() {
+export default function PartnerPage(props: any) {
 
   useEffect(() => {
     new Swiper('.brand-slider .swiper', {
@@ -45,7 +45,7 @@ export default function PartnerPage() {
   }, [])
 
   return(
-    <section className='pt-[80px] lg:pt-[120px] pb-[80px] lg:pb-[120px]'>
+    <section className='pt-[80px] lg:pt-[120px] pb-[80px] lg:pb-[120px]' style={props.style}>
       <div className='my-container mx-auto'>
         <div className='grid grid-cols-12'>
           <div className='col-span-12'>
