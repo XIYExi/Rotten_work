@@ -10,14 +10,22 @@ export default defineConfig({
       path: '/house',
       component: '@/pages/index',
       routes: [
+        /*Home03*/
         {
-          path: '/house',
-          component: '@/pages/house/index',
+          path:'/house/index-3',
+          component: '@/pages/house/index02',
           routes: [
             {
               path: '/house/index-3',
               component: '@/pages/house/Home03/index'
-            },
+            }
+          ]
+        },
+        /*Home01 ~ Home02*/
+        {
+          path: '/house',
+          component: '@/pages/house/index',
+          routes: [
             {
               path:'/house/index-2',
               component: '@/pages/house/Home02/index'
