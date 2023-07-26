@@ -10,6 +10,7 @@ import TestimonialPage from "@/pages/house/Home01/Testimonial";
 import PartnerPage from "@/pages/house/Home01/Partner";
 import AgentsPage from "@/pages/house/Home01/Agents";
 import BlogsPage from "@/pages/house/Home01/Blogs";
+import aboutImage from '@/assets/image/about/about.png';
 
 export default function Home01() {
 
@@ -22,7 +23,7 @@ export default function Home01() {
       {/*Best Choice 卡片*/}
       <BestChoicePage />
       {/*关于界面*/}
-      <ChooseUsPage />
+      <ChooseUsPage img={aboutImage}/>
       {/*新增房屋页面*/}
       <NewlyAddedPage />
       {/*视频*/}
