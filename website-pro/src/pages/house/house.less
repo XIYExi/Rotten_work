@@ -659,3 +659,21 @@
   }
 }
 
+
+.google-map{
+  background-image: url("../../assets/image/hero/map.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.thumb {
+  z-index: 10;
+  transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 1000ms;
+}
+.swiper-slide-visible .thumb {
+  transform: translate(0, 0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+  transition-delay: 500ms;
+}

@@ -103,7 +103,7 @@ export default function TestimonialPage() {
   )
 }
 
-interface TestimonialSwiperItemProps{
+export interface TestimonialSwiperItemProps{
   src: string;
   desc: string;
   title: string;

@@ -5,12 +5,22 @@
  */
 import React, {useEffect, useRef} from "react";
 import Parallax from 'parallax-js';
-import aboutImage from '@/assets/image/about/about.png';
 import doller from '@/assets/image/icon/doller.png';
 import location from '@/assets/image/icon/location.png';
 import trusted from '@/assets/image/icon/trusted.png';
 
-export default function ChooseUsPage() {
+interface ChooseUsPageProps {
+  img: string;
+  imgWidth?:number;
+  imgHeight?:number;
+}
+
+export default function ChooseUsPage(props:ChooseUsPageProps) {
+
+  const {
+    imgWidth = 729,
+    imgHeight = 633
+  } = props;
 
   const ImageRef = useRef(null);
   useEffect(()=>{
@@ -24,8 +34,8 @@ export default function ChooseUsPage() {
         {/*会动的老登的照片*/}
         <div className='col-span-12 lg:col-span-7'>
           <div ref={ImageRef} data-relative-input='true'>
-            <img data-depth='0.1' src={aboutImage} className=' mx-auto lg:max-w-[500px] xl:max-w-[729px]'
-                 loading='lazy' width='729' height='633' alt='about image'
+            <img data-depth='0.1' src={props.img} className=' mx-auto lg:max-w-[500px] xl:max-w-[729px]'
+                 loading='lazy' width={imgWidth} height={imgHeight} alt='about image'
             />
           </div>
         </div>

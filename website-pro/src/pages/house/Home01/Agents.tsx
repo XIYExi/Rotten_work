@@ -13,7 +13,7 @@ import {ReactComponent as TwitterSvg} from "@/assets/image/social/twitter.svg";
 import {ReactComponent as InsSvg} from "@/assets/image/social/ins.svg";
 
 
-export default function AgentsPage() {
+export default function AgentsPage(props: any) {
 
   const [data, setData] = useState<AgentsCardProps[]>([])
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function AgentsPage() {
   }, [])
 
   return(
-    <section className='pb-[80px] lg:pb-[120px] overflow-hidden'>
+    <section className='pb-[80px] lg:pb-[120px] overflow-hidden' style={props.style}>
       <div className='my-container mx-auto'>
         <div className='grid grid-cols-12'>
           <div className='col-span-12'>

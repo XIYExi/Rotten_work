@@ -25,15 +25,17 @@ const SearchBarButton = ({ children, onClick, ...restProps }: any) => (
   </button>
 )
 
-export default function SearchBarPage() {
+export default function SearchBarPage(props:any) {
 
   const [svgActive, setSvgActive] = useState<boolean>(false);
   const [content, setContent] = useState<'Buy' | 'Sell' | 'Rent' | 'Co'>('Buy')
 
+  const defaultClassName = 'mt-[80px] lg:mt-[120px] xl:mt-[-160px] relative z-10 pl-[40px] lg:pl-[50px] xl:pl-[0px]';
+
   return(
     <Fragment>
 
-      <div className='mt-[80px] lg:mt-[120px] xl:mt-[-160px] relative z-10 pl-[40px] lg:pl-[50px] xl:pl-[0px]'>
+      <div className={props.className !== undefined && props.className.length > 0 ? props.className : defaultClassName}>
         <div className='my-container mx-auto'>
           <div className='grid grid-cols-12'>
             <div className='col-span-12 relative'>
