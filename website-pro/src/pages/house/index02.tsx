@@ -16,11 +16,10 @@ export default function Index02Page({children}: IRouteProps) {
 
 
   return(
-    <>
-      <Header02Component />
+    <div className='overflow-x-hidden'>
       {children}
       <OwnerInputComponent />
       <FooterComponent />
-    </>
+    </div>
   )
 }
