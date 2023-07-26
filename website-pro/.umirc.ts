@@ -7,31 +7,39 @@ export default defineConfig({
   },
   routes: [
     {
-      path: '/house',
+      path: '/bery',
       component: '@/pages/index',
       routes: [
         /*Home03*/
         {
-          path:'/house/index-3',
+          path:'/bery/house02',
           component: '@/pages/house/index02',
           routes: [
             {
-              path: '/house/index-3',
+              path:'/bery/house02/index-5',
+              component: '@/pages/house/Home05/index'
+            },
+            {
+              path: '/bery/house02/index-4',
+              component: '@/pages/house/Home04/index'
+            },
+            {
+              path: '/bery/house02/index-3',
               component: '@/pages/house/Home03/index'
             }
           ]
         },
         /*Home01 ~ Home02*/
         {
-          path: '/house',
+          path: '/bery/house',
           component: '@/pages/house/index',
           routes: [
             {
-              path:'/house/index-2',
+              path:'/bery/house/index-2',
               component: '@/pages/house/Home02/index'
             },
             {
-              path: '/house',
+              path: '/bery/house',
               component: '@/pages/house/Home01/index'
             }
           ]
