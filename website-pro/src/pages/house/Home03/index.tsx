@@ -20,12 +20,6 @@ export default function House3() {
     <>
 
       {/*首页 HomePage*/}
-      <div className='relative'>
-        <HomePage />
-
-
-
-      </div>
 
 
       {/*不变的部分*/}
