@@ -12,7 +12,7 @@ interface HeaderNavItemProps {
   navItem: NavItemProps[];
 }
 
-const HeaderNavItem = (props: HeaderNavItemProps) => {
+export const HeaderNavItem = (props: HeaderNavItemProps) => {
 
   const {
     name,
