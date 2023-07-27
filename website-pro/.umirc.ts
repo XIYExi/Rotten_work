@@ -16,6 +16,10 @@ export default defineConfig({
           component: '@/pages/house/index02',
           routes: [
             {
+              path: '/bery/house02/index-6',
+              component: '@/pages/house/Home06/index'
+            },
+            {
               path:'/bery/house02/index-5',
               component: '@/pages/house/Home05/index'
             },
