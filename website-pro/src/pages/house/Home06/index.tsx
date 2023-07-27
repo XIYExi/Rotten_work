@@ -19,14 +19,12 @@ export default function Home06Page() {
     <>
       <AlertBarComponent />
       <Header02Component />
-
       <HomePage />
       <ChooseUs02Page />
       <HowWorksPage />
       <MaterialsPage />
       <Materials02Page />
       <FloorPlanPage />
-
 
     </>
   )
