@@ -22,7 +22,7 @@ export default function House05Page() {
 
       <HomePage />
 
-      <SearchBarPage/>
+      <SearchBarPage className='mt-[80px] lg:mt-[120px]  relative z-[2] pl-[40px] lg:pl-[50px] xl:pl-[0px]'/>
       <BestChoicePage />
       <ChooseUsPage img={about02} imgWidth={813} imgHeight={707}/>
       <ExploreCitiesPage />
