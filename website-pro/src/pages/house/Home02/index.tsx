@@ -17,6 +17,7 @@ import TestimonialPage from "@/pages/house/Home01/Testimonial";
 import PartnerPage from "@/pages/house/Home01/Partner";
 import BlogsPage from "@/pages/house/Home01/Blogs";
 import HomePage from "@/pages/house/Home02/HomePage";
+import about01 from "@/assets/image/about/about.png";
 
 export default function House02() {
 
@@ -27,7 +28,7 @@ export default function House02() {
 
       <SearchBarPage />
       <ExploreCitiesPage/>
-      <ChooseUsPage />
+      <ChooseUsPage img={about01}/>
       <BestChoicePage />
       <VideoTourPage />
       <NewlyAddedPage />

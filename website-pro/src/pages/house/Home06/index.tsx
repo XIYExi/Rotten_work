@@ -20,8 +20,6 @@ export default function Home06Page() {
 
   return(
     <>
-      <AlertBarComponent />
-      <Header02Component />
       <HomePage />
       <ChooseUs02Page />
       <HowWorksPage />

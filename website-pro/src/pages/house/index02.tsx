@@ -10,13 +10,17 @@ import {IRouteProps} from "umi";
 import OwnerInputComponent from "@/pages/house/components/OwnerInput";
 import FooterComponent from "@/pages/house/components/Footer";
 import './house.less';
+import AlertBarComponent from "@/pages/house/components/AlertBar";
 import Header02Component from "@/pages/house/components/Header02";
+
 
 export default function Index02Page({children}: IRouteProps) {
 
 
   return(
     <div className='overflow-x-hidden'>
+      <AlertBarComponent />
+      <Header02Component />
       {children}
       <OwnerInputComponent />
       <FooterComponent />

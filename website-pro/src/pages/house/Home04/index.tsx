@@ -4,8 +4,6 @@
  * @date: 2023/7/26
  */
 import React from "react";
-import Header02Component from "@/pages/house/components/Header02";
-import AlertBarComponent from "@/pages/house/components/AlertBar";
 import HomePage from "@/pages/house/Home04/HomePage";
 import BlogsPage from "@/pages/house/Home01/Blogs";
 import PartnerPage from "@/pages/house/Home01/Partner";
@@ -23,8 +21,7 @@ export default function Home04Page() {
 
   return(
     <>
-      <AlertBarComponent />
-      <Header02Component />
+
 
       {/*首页，原图为google map，申请不到api用图片替代*/}
       <HomePage />

@@ -17,9 +17,6 @@ import PartnerPage from "@/pages/house/Home01/Partner";
 export default function House05Page() {
   return(
     <>
-      <AlertBarComponent/>
-      <Header02Component />
-
       <HomePage />
 
       <SearchBarPage className='mt-[80px] lg:mt-[120px]  relative z-[2] pl-[40px] lg:pl-[50px] xl:pl-[0px]'/>

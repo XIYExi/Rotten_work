@@ -21,7 +21,6 @@ export default function House3() {
 
   return(
     <>
-      <Header02Component />
       {/*首页 HomePage*/}
       <HomePage />
 
