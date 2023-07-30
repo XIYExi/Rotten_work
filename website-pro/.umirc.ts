@@ -47,6 +47,16 @@ export default defineConfig({
               component: '@/pages/house/Home01/index'
             }
           ]
+        },
+        {
+          path: '/bery/about',
+          component: '@/pages/house/index',
+          routes: [
+            {
+              path: '/bery/about/',
+              component: '@/pages/house/About01/index'
+            }
+          ]
         }
       ]
     },
