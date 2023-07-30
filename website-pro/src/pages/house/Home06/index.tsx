@@ -12,6 +12,9 @@ import HowWorksPage from "@/pages/house/Home06/HowWorks";
 import MaterialsPage from "@/pages/house/Home06/Materials";
 import Materials02Page from "@/pages/house/Home06/Materials02";
 import FloorPlanPage from "@/pages/house/Home06/FloorPlan";
+import GalleryPage from "@/pages/house/Home06/Gallery";
+import Agents02Page from "@/pages/house/Home06/Agents02";
+import BlogsPage from "@/pages/house/Home01/Blogs";
 
 export default function Home06Page() {
 
@@ -25,6 +28,9 @@ export default function Home06Page() {
       <MaterialsPage />
       <Materials02Page />
       <FloorPlanPage />
+      <GalleryPage />
+      <Agents02Page />
+      <BlogsPage />
 
     </>
   )
