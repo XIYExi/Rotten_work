@@ -10,6 +10,21 @@ export default defineConfig({
       path: '/bery',
       component: '@/pages/index',
       routes: [
+        /*pages*/
+        {
+          path: '/bery/pages',
+          component: '@/pages/house/index02',
+          routes: [
+            {
+              path: '/bery/pages/single-service',
+              component: '@/pages/house/SingleService/index'
+            },
+            {
+              path:'/bery/pages/service',
+              component: '@/pages/house/Service/index'
+            }
+          ]
+        },
         /*Home03*/
         {
           path:'/bery/house02',
@@ -45,6 +60,17 @@ export default defineConfig({
             {
               path: '/bery/house',
               component: '@/pages/house/Home01/index'
+            }
+          ]
+        },
+        /*about*/
+        {
+          path: '/bery/about/index-2',
+          component: '@/pages/house/index02',
+          routes: [
+            {
+              path: '/bery/about/index-2',
+              component: '@/pages/house/About02/index'
             }
           ]
         },
