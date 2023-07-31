@@ -16,6 +16,14 @@ export default defineConfig({
           component: '@/pages/house/index02',
           routes: [
             {
+              path: '/bery/pages/register',
+              component: '@/pages/house/Register/index'
+            },
+            {
+              path: '/bery/pages/login',
+              component: '@/pages/house/Login/index'
+            },
+            {
               path: '/bery/pages/single-service',
               component: '@/pages/house/SingleService/index'
             },
