@@ -10,6 +10,29 @@ export default defineConfig({
       path: '/bery',
       component: '@/pages/index',
       routes: [
+        /*agency*/
+        {
+          path: '/bery/agency/',
+          component: '@/pages/house/index02',
+          routes: [
+            {
+              path: '/bery/agency/agent-details',
+              component: '@/pages/house/AgentDetails/index'
+            },
+            {
+              path: '/bery/agency/agent',
+              component: '@/pages/house/Agent/index'
+            },
+            {
+              path: '/bery/agency/agency-details',
+              component: '@/pages/house/AgencyDetails/index'
+            },
+            {
+              path: '/bery/agency/',
+              component: '@/pages/house/Agency/index'
+            }
+          ]
+        },
         /*pages*/
         {
           path: '/bery/pages',

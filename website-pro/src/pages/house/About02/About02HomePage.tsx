@@ -15,14 +15,14 @@ export default function About02HomePage(props: About02HomePageProps) {
       <div className="my-container mx-auto">
         <div className="grid grid-cols-12">
           <div className="col-span-12">
-            <div className="max-w-[480px]  mx-auto text-center text-white relative z-10">
+            <div className=" mx-auto text-center text-white relative z-10">
               <div className="mb-5">
                 <span className="text-base block">{props.meta}</span>
               </div>
-              <h1 className="font-recoleta text-[36px] sm:text-[50px] md:text-[68px] lg:text-[50px] leading-tight xl:text-7xl">
+              <h1 className="font-recoleta text-[36px] sm:text-[50px] md:text-[68px] lg:text-[50px] leading-tight xl:text-7xl ">
                 {props.title}
               </h1>
-              <p className="text-base mt-5">
+              <p className="text-base mt-5 max-w-[480px] mx-auto">
                 {props.desc}
               </p>
             </div>
