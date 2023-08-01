@@ -28,6 +28,10 @@ export default defineConfig({
               component: '@/pages/house/AgencyDetails/index'
             },
             {
+              path:'/bery/agency/create-agency',
+              component: '@/pages/house/CreateAgency/index'
+            },
+            {
               path: '/bery/agency/',
               component: '@/pages/house/Agency/index'
             }

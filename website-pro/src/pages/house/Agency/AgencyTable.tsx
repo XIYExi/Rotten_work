@@ -18,13 +18,15 @@ interface TableDataMsgProps {
   size: number;
   begin: number;
   limit: number;
+  paginationSize: number;
+  curPagination: number;
 }
 
 export default function AgencyTablePage() {
 
 
 
-  const [table, setTable] = useState<TableDataMsgProps>();
+  const [table, setTable] = useState<TableDataMsgProps | any>({});
   const [data, setData] = useState<AgencyDataProps[]>([]);
   useEffect(() => {
     (async () => {
@@ -33,12 +35,25 @@ export default function AgencyTablePage() {
         data: Graph.AgencyData,
         size: Graph.AgencyData.length,
         begin: 0,
-        limit: 10
+        limit: 10,
+        paginationSize: Math.ceil(Graph.AgencyData.length / 10), // 向上取整，获得导航条的长度
+        curPagination: 0,
       }
       setTable(json);
       setData(Graph.AgencyData.slice(0, 10));
     })()
   }, [])
+
+  const handlePaginationJump = (index: number) => {
+    console.log('jump', index)
+    // 0 ~ 9
+    // 10 ~ 19
+    // (索引)当前页第一个 index * 10
+    // (索引)当前页最后一个 10 * (index + 1) - 1
+    const begin = index * 10;
+    const end = 10 * ( index + 1 ) > table.size ? table.size : (10 * (index+1));
+    setData(table.data.slice(begin, end)); // [begin, end)
+  }
 
   return(
     <section className='pt-[80px] lg:pt-[120px]'>
@@ -55,6 +70,26 @@ export default function AgencyTablePage() {
               />
             ))
           }
+        </div>
+        {/*导航条*/}
+        <div className='grid grid-cols-12 mt-[50px] gap-x-[30px]'>
+          <div className='col-span-12'>
+            <ul className="pagination flex flex-wrap items-center justify-center">
+              {
+                table && new Array(table.paginationSize).fill(0).map((item: number, index:number) => (
+                  <li className="mx-2" key={index}>
+                    <div className="flex flex-wrap items-center justify-center
+                  w-[26px] h-[26px] leading-none hover:text-white hover:bg-primary rounded-[15px]"
+                         onClick={() => handlePaginationJump(index)}
+                    >
+                      {index + 1}
+                    </div>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+
         </div>
       </div>
     </section>
