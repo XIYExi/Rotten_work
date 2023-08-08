@@ -1,0 +1,18 @@
+.hoverBrand{
+    position: relative;
+}
+
+.hoverBrand:after {
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    background: #000;                                          
+    @apply transition-all duration-300;
+}
+
+.hoverBrand:hover::after{
+    width:100%;
+}

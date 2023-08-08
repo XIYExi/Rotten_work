@@ -5,7 +5,7 @@ export default function LayoutIndex({children}: IRouteProps) {
 
   return (
     <>
-      <div>
+      <div className='justify-end'>
         <a href='/house'>house</a>
       </div>
     </>
