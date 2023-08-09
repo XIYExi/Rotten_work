@@ -1,9 +1,11 @@
+import WorksPage from "./Works";
 
-export default function WorksPage() {
+export default function WorksIndex() {
 
     return(
-        <section>
-            works
-        </section>
+        <div>
+            <WorksPage />
+
+        </div>
     )
 }

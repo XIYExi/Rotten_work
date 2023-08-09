@@ -107,3 +107,8 @@
 .customFooterLink:hover::after{
     width: 100%;
 }
+
+
+.customHoverScaleWrapper:hover .customHoverScale{
+    transform: scale(1.02);
+}

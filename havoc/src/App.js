@@ -3,6 +3,7 @@ import './App.css';
 import bar from './assets/image/home/bar.svg';
 import React, { useEffect, useRef, useState } from 'react';
 import logo from './assets/image/logo.svg';
+import {ReactComponent as Logo} from "./assets/image/blackLogo.svg";
 
 function App() {
 
@@ -34,13 +35,16 @@ function App() {
 
       <header className='absolute bg-transparent w-full height-[60px] top-0 left-0'>
         <div className='container lg:px-[80px] py-[10px] relative'>
-          <h4 className='text-xl font-medium'>Havoc.</h4>
+          <Logo src={logo} alt='logo' width={97} height={22} style={{stroke: 'black'}}/>
         </div>
-        <div className='fixed right-0 top-0 cursor-pointer w-[45px] h-[45px]' onClick={handleClickOpenBar}>
+        <div className='fixed right-0 top-0 cursor-pointer w-[45px] h-[45px]' style={{zIndex: 999}} onClick={handleClickOpenBar}>
           <img width={45} height={45} loading='lazy' alt='bar' src={bar}/>
         </div>
       </header>
-      <div className={`${open ? 'translate-x-0' : 'translate-x-[-360px]'} bg-slate-50  transition-all duration-300 z-10 fixed w-[360px] h-screen top-0 lef-0 bg-[#f7f7f7]`}>
+      <div
+          className={`${open ? 'translate-x-0' : 'translate-x-[-360px]'} bg-slate-50  transition-all duration-300 fixed w-[360px] h-screen top-0 lef-0 bg-[#f7f7f7]`}
+          style={{zIndex: 999}}
+      >
         <div className='px-12 py-10'>
           <div className='w-full'>
 
