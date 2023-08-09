@@ -9,10 +9,14 @@
     position: absolute;
     height: 2px;
     width: 0px;
-    background: #000;                                          
+    background: #000;
     @apply transition-all duration-300;
 }
 
 .hoverBrand:hover::after{
     width:100%;
+}
+
+.customBorder{
+    border-bottom: 1px black solid;
 }

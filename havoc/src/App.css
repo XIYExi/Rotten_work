@@ -1,0 +1,109 @@
+.my-group {
+    position: relative;
+}
+
+.my-input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+}
+
+.my-input:focus {
+    outline: none;
+}
+
+.my-label {
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.my-input:focus ~ .my-label, .my-input:valid ~ .my-label {
+    top: -20px;
+    font-size: 14px;
+    color: #5264AE;
+}
+
+.my-bar {
+    position: relative;
+    display: block;
+}
+
+.my-bar:before, .my-bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.my-bar:before {
+    left: 50%;
+}
+
+.my-bar:after {
+    right: 50%;
+}
+
+.my-input:focus ~ .my-bar:before, .my-input:focus ~ .my-bar:after {
+    width: 50%;
+}
+
+.my-highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.my-input:focus ~ .my-highlight {
+    animation: inputHighlighter 0.3s ease;
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+
+.customFooterLink{
+    position: relative;
+}
+
+.customFooterLink:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    background: #7B7B7B;
+    width: 0;
+    @apply transition-all duration-300;
+}
+
+
+.customFooterLink:hover::after{
+    width: 100%;
+}

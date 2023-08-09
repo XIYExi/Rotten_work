@@ -1,4 +1,4 @@
-import HomePage from "../pages/home";
+import HomeIndex from "../pages/home";
 import WorksPage from "../pages/works";
 import WorksSinglePage from "../pages/works-single";
 import AboutPage from "../pages/about";
@@ -25,7 +25,7 @@ const routers = [
       },
       {
           path: '/',
-          element: <HomePage/>
+          element: <HomeIndex/>
       }
     ]
   }
