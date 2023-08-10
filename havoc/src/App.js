@@ -84,6 +84,12 @@ function App() {
               >Events List</a>
             </div>
 
+            <div className='mb-4'>
+              <a className='cursor-pointer hover:text-[#FFC85A] font-thin text-lg'
+                 onClick={() => handleNavJump('/contact')}
+              >Contact</a>
+            </div>
+
           </div>
         </div>
       </div>
