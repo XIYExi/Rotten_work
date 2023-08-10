@@ -112,3 +112,10 @@
 .customHoverScaleWrapper:hover .customHoverScale{
     transform: scale(1.02);
 }
+
+
+.customListDot{
+    /*list-style-image传进去的图片无法设置宽度和高度*/
+    @apply list-image-[url('./assets/image/event-single/dot.svg')];
+}
+

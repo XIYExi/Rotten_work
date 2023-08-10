@@ -72,6 +72,12 @@ function App() {
               >About</a>
             </div>
 
+            <div className='mb-4'>
+              <a className='cursor-pointer hover:text-[#FFC85A] font-thin text-lg'
+                 onClick={() => handleNavJump('/event-single')}
+              >Event Single</a>
+            </div>
+
           </div>
         </div>
       </div>
