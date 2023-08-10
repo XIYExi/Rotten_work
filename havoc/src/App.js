@@ -90,6 +90,12 @@ function App() {
               >Contact</a>
             </div>
 
+            <div className='mb-4'>
+              <a className='cursor-pointer hover:text-[#FFC85A] font-thin text-lg'
+                 onClick={() => handleNavJump('/team')}
+              >Team</a>
+            </div>
+
           </div>
         </div>
       </div>

@@ -119,3 +119,34 @@
     @apply list-image-[url('./assets/image/event-single/dot.svg')];
 }
 
+
+.customHoverFlag{
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.customHover:hover .customHoverFlag{
+    top: 50%;
+    display: flex!important;
+    z-index: 100;
+    opacity: 100%;
+}
+
+.customHover:hover .customHoverImage {
+    filter: brightness(.5);
+}
+
+
+.hoverIconFacebook:hover rect{
+    fill: #FFCB5A;
+    transition: fill 200ms ease-in-out;
+}
+.hoverIconIns:hover rect{
+    fill: #FFCB5A;
+    transition: fill 200ms ease-in-out;
+}
+.hoverIconTwitter:hover rect{
+    transition: fill 200ms ease-in-out;
+    fill: #FFCB5A;
+}
