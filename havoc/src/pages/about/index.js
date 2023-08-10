@@ -1,9 +1,14 @@
+import UpcomingPage from "../home/Upcoming";
+import AboutPage from "./About";
+import ClientsPage from "./Clients";
 
-export default function AboutPage(){
+export default function AboutIndex(){
 
     return(
-        <section>
-            about
-        </section>
+        <div>
+            <AboutPage />
+            <ClientsPage />
+            <UpcomingPage />
+        </div>
     )
 }

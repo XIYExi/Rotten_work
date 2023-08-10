@@ -1,10 +1,11 @@
+import SinglePage from "./Page";
 
 
-export default function WorksSinglePage(){
+export default function WorksSingleIndex(){
 
     return(
-        <section>
-            works single
-        </section>
+        <div>
+            <SinglePage />
+        </div>
     )
 }
