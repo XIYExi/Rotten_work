@@ -14,10 +14,10 @@ export default function LatestPage() {
             <div className='px-[30px] lg:px-[135px]'>
                 <div className='grid grid-cols-12 gap-x-[40px] lg:gap-x-[80px]'>
                     <div className='col-span-12 mb-6'>
-                        <h2 className='font-thin text-[20px] before:mr-2 line-[20px] relative flex flex-wrap before:content-["————"]'>LATEST WORK</h2>
+                        <h2 className='font-thin text-[12px] md:text-[20px] before:mr-2 line-[20px] relative flex flex-wrap before:content-["————"]'>LATEST WORK</h2>
                     </div>
                     <div className='col-span-12 mb-10'>
-                        <div className='max-w-[653px] text-[40px] font-[600]'>
+                        <div className='max-w-[653px] text-[24px] md:text-[40px] font-[600]'>
                             Here are some exciting new projects we’ve been working on
                         </div>
                     </div>
@@ -26,21 +26,21 @@ export default function LatestPage() {
                         <div className='mx-auto mb-5'>
 
                             <div className='relative'>
-                                <img className='mx-auto'  loading='lazy' src={image} />
+                                <img className='mx-auto' style={{objectFit:'scale-down'}} loading='lazy' src={image} />
                                 <div className='flex absolute bottom-0 right-0'>
                                     <div className='w-[76px] py-1 bg-[#FFC85A] text-center'>Prev</div>
                                     <div className='w-[76px] py-1 bg-[#000000] text-white text-center'>Next</div>
                                 </div>
                             </div>
 
-                            <div>
+                            <div className='mb-[40px] md:mb-0'>
                                 <h2 className='text-[14px] font-thin mb-2'>Branding . Packaging</h2>
-                                <div className='text-[40px] max-w-[650px] font-[600]'>Elderbook The Not Squash Branding</div>
+                                <div className='text-[22px] md:text-[24px] md:text-[40px] max-w-[650px] font-[600]'>Elderbook The Not Squash Branding</div>
                             </div>
                         </div>
                     </div>
 
-                    <div className='col-span-12 md:col-span-6 gap-x-[80px]'>
+                    <div className='col-span-12 md:col-span-6 gap-x-[80px] gap-y-[40px]'>
                         <CardComponent
                             src={img1}
                             title='Bitter Fit Pilates Ring product design and digital work'
@@ -69,7 +69,7 @@ export default function LatestPage() {
                         />
                     </div>
                 </div>
-                <div className='mx-auto text-center w-[200px] px-6 py-2 border border-black hover:bg-black hover:text-white transition-all duration-200'>
+                <div className='mt-[57px] md:mt-0 mx-auto text-center w-[200px] px-6 py-2 border border-black hover:bg-black hover:text-white transition-all duration-200'>
                     Button
                 </div>
             </div>

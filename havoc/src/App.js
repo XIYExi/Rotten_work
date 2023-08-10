@@ -1,4 +1,4 @@
-import { Link, Outlet, useNavigate } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 import './App.css';
 import bar from './assets/image/home/bar.svg';
 import React, { useEffect, useRef, useState } from 'react';
@@ -34,7 +34,7 @@ function App() {
     <div className="App" ref={AppRef}>
 
       <header className='absolute bg-transparent w-full height-[60px] top-0 left-0'>
-        <div className='container lg:px-[80px] py-[10px] relative'>
+        <div className='container px-[40px] md:px-[80px] py-[10px] relative'>
           <Logo src={logo} alt='logo' width={97} height={22} style={{stroke: 'black'}}/>
         </div>
         <div className='fixed right-0 top-0 cursor-pointer w-[45px] h-[45px]' style={{zIndex: 999}} onClick={handleClickOpenBar}>
@@ -103,18 +103,18 @@ function App() {
 
       <Outlet />
 
-      <div className='w-full py-[80px] lg:py-[120px] bg-[#FFC85A]'>
-        <div className='px-[30px] lg:px-[135px] relative'>
-          <div className='grid grid-cols-12 gap-x-[50px]'>
+      <div className='py-[80px] md:py-[120px] bg-[#FFC85A] overflow-x-hidden'>
+        <div className='px-[30px] md:px-[135px] relative'>
+          <div className='grid grid-cols-12 gap-x-[50px] gap-y-[32px]'>
             <div className='col-span-12 md:col-span-6'>
               <div>
-                <h2 className='mb-6 font-thin text-[20px] before:mr-2 line-[20px] relative flex flex-wrap before:content-["————"]'>MEET THE TEAM</h2>
+                <h2 className='mb-[12px] md:mb-6 font-thin text-[12px] md:text-[20px] before:mr-2 line-[20px] relative flex flex-wrap before:content-["————"]'>CONTACT</h2>
 
-                <div className='text-[80px] font-bold leading-[81px] max-w-[500px] mb-4' style={{letterSpacing: '-1px'}}>
+                <div className='text-[35px] md:text-[80px] font-bold leading-[38px] md:leading-[81px] max-w-[222px] md:max-w-[500px] mb-4' style={{letterSpacing: '-1px'}}>
                   Let's get in touch
                 </div>
 
-                <div className='max-w-[500px] font-thin text-[20px]'>
+                <div className='max-w-[400px] md:max-w-[500px] font-thin text-[16px] md:text-[20px]'>
                   On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure
                 </div>
               </div>
@@ -122,31 +122,29 @@ function App() {
 
             <div className='col-span-12 md:col-span-6'>
 
-              <form action='#'>
+              <form action='#' className='w-full'>
 
                 <div className="my-group mb-[37px]">
-                  <input required={true} type="text" className="my-input w-full" />
-                  <span className="my-bar w-full"></span>
+                  <input required={true} type="text" className="my-input w-[70%] md:w-full" />
+                  <span className="my-bar w-[70%] md:w-full"></span>
                   <label className='my-label'>Name</label>
                 </div>
 
                 <div className="my-group  mb-[37px]">
-                  <input required={true} type="text" className="my-input w-full" />
-                  <span className="my-bar w-full"></span>
+                  <input required={true} type="text" className="my-input w-[70%] md:w-full" />
+                  <span className="my-barw-[70%] md:w-full"></span>
                   <label className='my-label'>Email</label>
                 </div>
 
                 <div className="my-group mb-[32px]">
-                  <textarea required={true} rows={4}  className="my-input w-full" />
-                  <span className="my-bar w-full"></span>
+                  <textarea required={true} rows={4}  className="my-input w-[70%] md:w-full" />
+                  <span className="my-bar w-[70%] md:w-full"></span>
                   <label className='my-label'>Description</label>
                 </div>
 
-                <div className='text-[20px] font-[600] w-full text-center py-4 bg-black text-white hover:bg-transparent border border-black hover:text-black transition-all duration-300'>
+                <div className='text-[20px] font-[600] w-[70%] md:w-full text-center py-4 bg-black text-white hover:bg-transparent border border-black hover:text-black transition-all duration-300'>
                   Send
                 </div>
-
-
               </form>
 
             </div>
@@ -154,15 +152,14 @@ function App() {
         </div>
       </div>
 
-
-      <footer className='bg-[#252525] w-full h-[500px] pt-[80px] lg:pt-[120px] pb-[60px]'>
+      <footer className='bg-[#252525] w-full h-[350px] md:h-[500px] pt-[80px] lg:pt-[120px] pb-[60px] overflow-x-hidden'>
         <div className='px-[30px] lg:px-[135px] relative h-full'>
           <div className='grid grid-cols-12 gap-x-[60px] h-full'>
             <div className='col-span-12 md:col-span-6 h-full relative'>
               <div>
                 <img src={logo} alt='logo' width={97} height={22} className='mb-[23px]'/>
 
-                <div className='font-thin text-white max-w-[350px]'>
+                <div className='font-thin text-white max-w-[350px] text-[14px] md:text-base'>
                   We love to explore new ways to engage with brands and reach new levels of creative outlets through design.
                 </div>
 
@@ -174,7 +171,7 @@ function App() {
             </div>
 
             <div className='col-span-12 md:col-span-6'>
-              <div className='grid grid-cols-1 md:grid-cols-3 gap-x-[30px]'>
+              <div className='grid grid-cols-1 md:grid-cols-3 gap-x-[30px] hidden md:block'>
                 <div>
                   <div className='text-white text-[14px] mb-4'>Havoc</div>
                   <ul className='text-[14px] text-[#7B7B7B]'>

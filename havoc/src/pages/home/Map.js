@@ -17,22 +17,22 @@ export default function MapPage(){
                         </div>
 
                         <div className='w-full'>
-                            <div className='text-[80px] font-[600] leading-[100px] max-w-[585px]' style={{letterSpacing: '-1px'}}>
+                            <div className='text-[35px] md:text-[80px] font-[600] leading-[38px] md:leading-[100px] max-w-[585px]' style={{letterSpacing: '-1px'}}>
                                 Growing all around the globe.
                             </div>
 
                             <div className='mt-12 grid grid-cols-3 gap-x-[50px] xl:gap-x-[80px]'>
                                 <div className='border-r-2'>
-                                    <div className='text-[120px] font-thin'>54</div>
-                                    <div className='leading-[20px] pl-[30px]'>Counties</div>
+                                    <div className='text-[42px] md:text-[120px] font-thin'>54</div>
+                                    <div className='leading-[20px] md:pl-[30px]'>Counties</div>
                                 </div>
                                 <div className='border-r-2'>
-                                    <div className='text-[120px] font-thin'>136</div>
-                                    <div className='leading-[20px] pl-[60px]'>Clients</div>
+                                    <div className='text-[42px] md:text-[120px] font-thin'>136</div>
+                                    <div className='leading-[20px] md:pl-[60px]'>Clients</div>
                                 </div>
                                 <div>
-                                    <div className='text-[120px] font-thin'>12</div>
-                                    <div className='leading-[20px] pl-[30px]'>Offices</div>
+                                    <div className='text-[42px] md:text-[120px] font-thin'>12</div>
+                                    <div className='leading-[20px] md:pl-[30px]'>Offices</div>
                                 </div>
                             </div>
 

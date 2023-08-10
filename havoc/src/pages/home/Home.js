@@ -5,10 +5,10 @@ import React from "react";
 export default function HomePage(){
 
     return(
-        <section className="w-full h-screen bg-[#FFC85A]">
+        <section className="w-full h-screen bg-[#FFC85A] pb-[120px] md:pb-0">
             <div className="px-[30px] lg:px-[135px] mx-auto xxl:pt-52 pt-32">
                 <div className="grid grid-cols-12">
-                    <div className="lg:col-span-6 xl:col-span-5 col-span-12 border-b-2 md:border-r-2 border-slate-400">
+                    <div className="lg:col-span-6 xl:col-span-5 col-span-12 border-b-2 md:border-r-2 border-slate-400 md:mb-0 md:pb-0 mb-[32px] pb-[32px]">
                         <h2 className='font-bold text-[50px] lg:text-[60px] xl:text-[104px] max-w-[450px]'>
                             <div className="">Building.</div>
                             <div className="mt-[-20px] lg:mt-[-40px]">Brands.</div>
@@ -16,17 +16,17 @@ export default function HomePage(){
 
                     </div>
                     <div className='lg:col-span-6 xl:col-span-7 col-span-12 border-b-2 border-slate-400'>
-                        <div className='text-[30px] ml-[20px] xl:text-[43px] font-[500] xl:max-w-[850px] xl:ml-[60px] xl:mt-[20px] mb-4'>
+                        <div className='text-[24px] md:text-[30px] ml-[20px] xl:text-[43px] font-[500] xl:max-w-[850px] xl:ml-[60px] xl:mt-[20px] mb-[32px] md:mb-4'>
                             We love to explore new ways to engage with brands and reach new levels of creative outlets through design.
                         </div>
                     </div>
                 </div>
 
-                <div className="grid grid-cols-12 mx-auto">
-                    <div className="col-span-12 xl:col-span-5 lg:col-span-6 lg:border-r-2 border-slate-400">
+                <div className="grid grid-cols-12 mx-auto mt-[32px] md:mt-0">
+                    <div className="col-span-12 xl:col-span-5 lg:col-span-6 lg:border-r-2 border-slate-400 border-b-2 md:border-b-0 pb-[32px] md:pb-0 mb-[32px] md:mb-0">
                         <div className='flex flex-wrap xl:mt-[40px]'>
-                            <img src={emailSvg} />
-                            <div className='font-thin ml-4 text-[30px] xl:text-[40px]'>hello@havoc.co.uk</div>
+                            <img className='w-[28px] h-[28px] md:w-auto md:h-auto' src={emailSvg} />
+                            <div className='font-thin ml-4 text-[20px] md:text-[30px] xl:text-[40px]'>hello@havoc.co.uk</div>
                         </div>
                     </div>
                     <div className='col-span-12 xl:col-span-7 lg:col-span-6'>

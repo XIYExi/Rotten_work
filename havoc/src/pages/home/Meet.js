@@ -17,15 +17,15 @@ export default function MeetPage() {
 
                 <div className='grid grid-cols-12 gap-x-[40px] lg:gap-x-[80px]'>
                     <div className='col-span-12 mb-6'>
-                        <h2 className='font-thin text-[20px] before:mr-2 line-[20px] relative flex flex-wrap before:content-["————"]'>MEET THE TEAM</h2>
+                        <h2 className='font-thin text-[12px] md:text-[20px] before:mr-2 line-[20px] relative flex flex-wrap before:content-["————"]'>MEET THE TEAM</h2>
                     </div>
 
-                    <div className='col-span-12 pb-[40px]'>
-                        <h2 className='max-w-[683px] text-[43px] font-[600] leading-[56px]' style={{letterSpacing: '-0.5px'}}>The mighty Havoc team always making magic and pancakes</h2>
+                    <div className='col-span-12 md:pb-[40px]'>
+                        <h2 className='max-w-[683px] text-[24px] md:text-[43px] font-[600] leading-[30px] md:leading-[56px]' style={{letterSpacing: '-0.5px'}}>The mighty Havoc team always making magic and pancakes</h2>
                     </div>
                 </div>
 
-                <div className='grid grid-cols-4 gap-x-[30px]'>
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-x-[30px]'>
                     {
                         HumanCardsData.map((item, index) => (
                             <div className='mt-[50px] hover:drop-shadow-xl transition-all duration-300' key={index}>

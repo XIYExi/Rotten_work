@@ -12,51 +12,51 @@ export default function UpcomingPage() {
                     </div>
 
                     <div className='w-full'>
-                        <div className='text-[80px] font-[600] leading-[100px] max-w-[585px]  mb-[53px]' style={{letterSpacing: '-1px'}}>
+                        <div className='text-[35px] md:text-[80px] font-[600] leading-[44px] md:leading-[100px] max-w-[222px] md:max-w-[585px]  mb-[53px]' style={{letterSpacing: '-1px'}}>
                             Upcoming events
                         </div>
 
                         <div className='mb-[64px]'>
-                            <div className='mb-6'>
-                                <span className='bg-[#FFC85A] py-1 px-5 text-[20px] font-[500]'>23 FEB</span>
+                            <div className='mb-3 md:mb-6'>
+                                <span className='bg-[#FFC85A] py-1 px-5 text-[12px] md:text-[20px] font-[500]'>23 FEB</span>
                             </div>
-                            <div className='flex justify-between mb-3'>
-                                <div className='text-[28px] font-[600] leading-[42px]' style={{letterSpacing: '-0.4px'}}>
+                            <div className='flex justify-between md:mb-[4px] md:mb-3'>
+                                <div className='text-[17px] md:text-[28px] font-[600] leading-[25px] md:leading-[42px]' style={{letterSpacing: '-0.4px'}}>
                                     Summer Event
                                 </div>
                                 <img src={arrow} loading='lazy' width={44} height={13} alt='arrow'/>
                             </div>
-                            <div className='font-thin text-[20px] pb-[40px] customBorder'>
+                            <div className='font-thin text-[12px] md:text-[20px] pb-[32px] md:pb-[40px] customBorder'>
                                 A fresh new start for 2021
                             </div>
                         </div>
 
                         <div className='mb-[64px]'>
-                            <div className='mb-6'>
-                                <span className='bg-[#FFC85A] py-1 px-5 text-[20px] font-[500]'>23 FEB</span>
+                            <div className='mb-3 md:mb-6'>
+                                <span className='bg-[#FFC85A] py-1 px-5 text-[12px] md:text-[20px] font-[500]'>23 FEB</span>
                             </div>
-                            <div className='flex justify-between mb-3'>
-                                <div className='text-[28px] font-[600] leading-[42px]' style={{letterSpacing: '-0.4px'}}>
+                            <div className='flex justify-between md:mb-[4px] md:mb-3'>
+                                <div className='text-[17px] md:text-[28px] font-[600] leading-[25px] md:leading-[42px]' style={{letterSpacing: '-0.4px'}}>
                                     How UI/UX is empowering industries
                                 </div>
                                 <img src={arrow} loading='lazy' width={44} height={13} alt='arrow'/>
                             </div>
-                            <div className='font-thin text-[20px] pb-[40px] customBorder'>
+                            <div className='font-thin text-[12px] md:text-[20px] pb-[32px] md:pb-[40px] customBorder'>
                                 A deep dive into our methods
                             </div>
                         </div>
 
-                        <div className='mb-[200px]'>
-                            <div className='mb-6'>
-                                <span className='bg-[#FFC85A] py-1 px-5 text-[20px] font-[500]'>23 FEB</span>
+                        <div className='mb-[100px] md:mb-[200px]'>
+                            <div className='mb-3 md:mb-6'>
+                                <span className='bg-[#FFC85A] py-1 px-5 text-[12px] md:text-[20px] font-[500]'>23 FEB</span>
                             </div>
-                            <div className='flex justify-between mb-3'>
-                                <div className='text-[28px] font-[600] leading-[42px]' style={{letterSpacing: '-0.4px'}}>
+                            <div className='flex justify-between md:mb-[4px] md:mb-3'>
+                                <div className='text-[17px] md:text-[28px] font-[600] leading-[25px] md:leading-[42px]' style={{letterSpacing: '-0.4px'}}>
                                     The importance of UX
                                 </div>
                                 <img src={arrow} loading='lazy' width={44} height={13} alt='arrow'/>
                             </div>
-                            <div className='font-thin text-[20px] pb-[40px] customBorder'>
+                            <div className='font-thin text-[12px] md:text-[20px] pb-[32px] md:pb-[40px] customBorder'>
                                 How user experience is changing
                             </div>
                         </div>
