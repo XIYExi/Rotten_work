@@ -11,9 +11,9 @@ export default function DisplayBoxComponent(props) {
   const iframeRef = useRef(null);
 
   useEffect(() => {
-
+    // TODO 计划使用iframe包裹组件，可以通过右侧缩放显示响应式组件
     displayRef.current.addEventListener('mousedown', function(e){
-      console.log(e)
+      // console.log(e)
       // boxRef.current.style.maxWidth='300px';
       // boxRef.current.style.width = '600px';
     })
