@@ -1,0 +1,24 @@
+{
+  "wrapper": {
+    "title": {
+      "text": "这里输入文字，只有text中文会被放置到innerText中",
+      "css": {
+        "tip": "========== css中的内容会被添加到组件的样式,其命名须要符合cssproperties规则 =========="
+      },
+      "sm": {
+        "tip": "可选配置，用于覆盖css中的统一配置，用于显示mobile设备的样式"
+      },
+      "md": {
+
+      },
+      "lg": {
+
+      },
+      "class": "组件的class，基于tailwincss ，可以直接用于调试和生成样式",
+      "default": {
+        "margin": [120, 64, 32],
+        "maxWidth": [740, 450, 345]
+      }
+    }
+  }
+}
