@@ -1,4 +1,5 @@
 const Title = require('./component/Title');
+const Text = require('./component/Text');
 const Wrapper = require('./component/Wrapper');
 
 class CreatorBuilder {
@@ -82,12 +83,11 @@ class Creator{
                 },
                 wrapper: [
                     {
-                        secondTitle: {},
-                        desc: {}
+                        text: {}
                     },
                     {
                         secondTitle: {},
-                        desc: {}
+                        text: {}
                     },
                 ]
             }
@@ -97,7 +97,7 @@ class Creator{
         const wrapperList = dom.wrapper;
 
         // 生成最外层wrapper
-        this.wrapper = new Wrapper().generateWrapperNode(true).generate();
+        this.wrapper = new Wrapper().generateWrapperNode().generate();
         // console.log(this.wrapper)
 
         // 判断当前wrapper是否有嵌套结构
@@ -114,6 +114,13 @@ class Creator{
                         this.wrapper.appendChild(titleDom);
                         console.log(this.wrapper);
                         //this.generateTitleNode(wrapperList.title);
+                        break;
+                    case 'text':
+                        const textDom = new Text().generateTextNode(wrapperList.text).generate();
+                        this.wrapper.appendChild(textDom);
+                        break;
+                    case 'image':
+
                         break;
                     default:
                         break;
