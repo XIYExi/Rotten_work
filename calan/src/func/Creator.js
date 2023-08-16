@@ -97,7 +97,7 @@ class Creator{
         const wrapperList = dom.wrapper;
 
         // 生成最外层wrapper
-        this.wrapper = new Wrapper().generateWrapperNode().generate();
+        this.wrapper = new Wrapper().generateWrapperNode(true).generate();
         // console.log(this.wrapper)
 
         // 判断当前wrapper是否有嵌套结构
