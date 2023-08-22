@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b30a11c-6e8e-48b0-b63a-2b3593e64b6d" name="Changes" comment="commit:提交content05 背景图片">
+      <change beforePath="$PROJECT_DIR$/calan/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/calan/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/calan/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2TxRqXX0y7cUZizr7lZKROQ0SKg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xiOn UI" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Projection\Rotten_work\calan\src\func\component" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Creator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/calan/src/func/Creator.js" working-dir="$PROJECT_DIR$/calan/src/func">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/calan/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.Creator.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b30a11c-6e8e-48b0-b63a-2b3593e64b6d" name="Changes" comment="" />
+      <created>1691982941376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691982941376</updated>
+      <workItem from="1691982942719" duration="754000" />
+      <workItem from="1692001579632" duration="4898000" />
+      <workItem from="1692086536328" duration="13721000" />
+      <workItem from="1692170854781" duration="9106000" />
+      <workItem from="1692191501596" duration="1672000" />
+      <workItem from="1692605364334" duration="3666000" />
+      <workItem from="1692689893172" duration="429000" />
+    </task>
+    <task id="LOCAL-00001" summary="add:添加calan文件，mac推送不上去">
+      <created>1691983075350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691983075350</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit:提交content02">
+      <created>1692005478184</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692005478185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit:提交content03">
+      <created>1692088169565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692088169565</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add:测试用的规范文件">
+      <created>1692102077931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692102077931</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add:尝试添加koa和koa-static以配合commonjs">
+      <created>1692176613493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692176613493</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update：没几把用，还是写在react里面">
+      <created>1692176639690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692176639690</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update：更新了个寂寞">
+      <created>1692176660278</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692176660278</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update：修改改了Creator工厂类">
+      <created>1692176693372</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692176693372</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update：koa入口，目前没用">
+      <created>1692176702153</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692176702153</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update：commonjs规范，tools工具类">
+      <created>1692176807396</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692176807396</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix:😘区分最外层wrapper和内层wrapper">
+      <created>1692177395308</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692177395308</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Question: 🤐json组织形式有问题，需要修改~">
+      <created>1692193084451</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692193084451</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit:提交content05 lg页面">
+      <created>1692607117908</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692607117908</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit:提交content05 背景图片">
+      <created>1692607125716</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692607125716</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add:添加calan文件，mac推送不上去" />
+    <MESSAGE value="commit:提交content02" />
+    <MESSAGE value="commit:提交content03" />
+    <MESSAGE value="add:提交工厂构造器和wrapper类" />
+    <MESSAGE value="add:用于测试的页面" />
+    <MESSAGE value="add:contents04页面" />
+    <MESSAGE value="add:静态资源" />
+    <MESSAGE value="add:测试用的规范文件" />
+    <MESSAGE value="add:尝试添加koa和koa-static以配合commonjs" />
+    <MESSAGE value="update：没几把用，还是写在react里面" />
+    <MESSAGE value="update：更新了个寂寞" />
+    <MESSAGE value="update：修改改了Creator工厂类" />
+    <MESSAGE value="update：koa入口，目前没用" />
+    <MESSAGE value="update：commonjs规范，分离组件，Node为基类" />
+    <MESSAGE value="update：commonjs规范，最外层包裹Wrapper" />
+    <MESSAGE value="update：commonjs规范，Title和Text节点" />
+    <MESSAGE value="update：commonjs规范，tools工具类" />
+    <MESSAGE value="fix:区分最外层wrapper和内层wrapper" />
+    <MESSAGE value="Question: json组织形式有问题，需要修改~" />
+    <MESSAGE value="commit:提交content05 lg页面" />
+    <MESSAGE value="commit:提交content05 背景图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit:提交content05 背景图片" />
+  </component>
+</project>
