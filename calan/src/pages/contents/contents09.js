@@ -9,7 +9,7 @@ const Content09TitleWrapper = styled.div`
     
     //lg
   @media screen and (min-width: 1440px){
-    @apply col-span-6;
+    
   }
 `
 
@@ -17,7 +17,7 @@ const Content09DescWrapper = styled.div`
 
     //lg
   @media screen and (min-width: 1440px){
-    @apply col-span-6;
+    
   }
 `
 
@@ -29,11 +29,11 @@ export default function ContentComponent09(){
 
             <Content09GridWrapper className='grid grid-cols-12 gap-x-[30px]'>
 
-                <Content09TitleWrapper>
+                <Content09TitleWrapper className='col-span-12 sm:col-span-6'>
                     The Templates are Designed to Show You a Sense of Acceleration in the Website Design Process
                 </Content09TitleWrapper>
 
-                <Content09DescWrapper>
+                <Content09DescWrapper className='col-span-12 sm:col-span-6'>
                     The product is beautifully designed for startups
                 </Content09DescWrapper>
 
