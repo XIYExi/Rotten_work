@@ -3,6 +3,13 @@ module.exports = {
   mode: 'jit',
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    screens: {
+      xs:'375px',
+      sm: '675px',
+      md: '1440px',
+      lg: '1536px',
+      xl: '1980px'
+    },
     container: {
       padding: {
         DEFAULT: '1rem',
