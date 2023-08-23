@@ -126,4 +126,3 @@ const dom  = {
 tailwind.config.js 文件中定义了 screens ，用于将 tailwindcss 默认的响应式和自己定义的媒体查询关联起来，不建议改动！
 至于底下的 container 其实没怎么用，2.x 版本的 tailwindcss 的 container 默认表现不太行。
 
-
