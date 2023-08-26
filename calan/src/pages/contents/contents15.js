@@ -68,7 +68,6 @@ const Content15LeftDescWrapper = styled.div`
   }
 `
 
-
 const Content15RightWrapper = styled.div`
     
     //lg
@@ -78,13 +77,74 @@ const Content15RightWrapper = styled.div`
   }
 `
 
-
 const Content15DividerWrapper = styled.div`
     height: 1px;
   width: 100%;
   background-color: #E7E5EA;
   margin-bottom: 32px;
   margin-top:32px;
+`
+
+const Content15RightSecondTitleWrapper = styled.div`
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  color: ${props=>props.$color};
+  opacity: 0.5;
+  text-transform: uppercase;
+  
+
+  //lg
+  @media screen and (min-width: 1440px){
+    font-size: ${props => DescSizeTransform(props.$size)};
+    line-height: ${props => LeadingTransform(props.$leading)};
+    letter-spacing: 4px;
+  }
+`
+
+const Content15RightTitleWrapper = styled.div`
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  color: ${props => props.$color};
+
+  //lg
+  @media screen and (min-width: 1440px){
+    font-size: ${props => TitleSizeTransform(props.$size)};
+    line-height: ${props => LeadingTransform(props.$leading)};
+    letter-spacing: -0.8px;
+    margin-top: 16px;
+  }
+`
+
+const Content15Button = styled.button`
+    background-color: rgba(255, 221, 169, 1);
+  border-radius: 28px;
+  padding: 15px 24px;
+  margin-top: 24px;
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.36px;
+  
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 221, 169, 0.3);
+    border-radius: 28px;
+    z-index: -10;
+    transition: all 300ms ease-in-out;
+  }
+  
+  &:hover:before{
+    transform: scale(1.1,1.25);
+    
+  }
 `
 
 
@@ -96,7 +156,7 @@ const ContentComponent15 = (props) => {
             data.current = observable(transfer);
         else
             data.current = observable(props.data);
-    }, [props])
+    }, [props.data])
 
     return(
         <div className='w-full relative mx-auto lg:py-[80px] lg:px-[165px]'>
@@ -138,11 +198,24 @@ const ContentComponent15 = (props) => {
 
 
                 <Content15RightWrapper>
-                    <div>perfect design</div>
-                    <div>
+
+                    <Content15RightSecondTitleWrapper
+                        $color={'#594D6D'}
+                        $size={14}
+                        $leading={24}
+                    >
+                        perfect design
+                    </Content15RightSecondTitleWrapper>
+
+                    <Content15RightTitleWrapper
+                        $color={'#12022F'}
+                        $size={24}
+                        $leading={34}
+                    >
                         CaLan includes amazing components designed for your startup project
-                    </div>
-                    <button>Get Started</button>
+                    </Content15RightTitleWrapper>
+
+                    <Content15Button>Get Started</Content15Button>
                 </Content15RightWrapper>
 
             </div>
