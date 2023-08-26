@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b30a11c-6e8e-48b0-b63a-2b3593e64b6d" name="Changes" comment="commit:提交content05 背景图片">
-      <change beforePath="$PROJECT_DIR$/calan/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/calan/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/calan/yarn.lock" afterDir="false" />
+    <list default="true" id="4b30a11c-6e8e-48b0-b63a-2b3593e64b6d" name="Changes" comment="commit:提交lg下的contents15">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents01.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents02.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents03.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents04.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents05.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents06.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents07.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents08.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents09.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents15.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +33,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2TxRqXX0y7cUZizr7lZKROQ0SKg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -40,6 +60,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="F:\Projection\Rotten_work\personal_responsive\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -47,15 +68,52 @@
       <recent name="F:\Projection\Rotten_work\calan\src\func\component" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="Creator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/calan/src/func/Creator.js" working-dir="$PROJECT_DIR$/calan/src/func">
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start:calan">
+    <configuration name="start:calan" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/calan/package.json" />
       <command value="run" />
       <scripts>
-        <script value="start" />
+        <script value="start:calan" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:havoc" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/havoc/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:havoc" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:main-umi" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/main-pro/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:main-umi" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:personal_responsive" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/personal_responsive/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:personal_responsive" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:website-pro" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/website-pro/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:website-pro" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -63,8 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="Node.js.Creator.js" />
+        <item itemvalue="npm.start:calan" />
+        <item itemvalue="npm.start:website-pro" />
+        <item itemvalue="npm.start:personal_responsive" />
+        <item itemvalue="npm.start:main-umi" />
+        <item itemvalue="npm.start:havoc" />
       </list>
     </recent_temporary>
   </component>
@@ -82,7 +143,12 @@
       <workItem from="1692170854781" duration="9106000" />
       <workItem from="1692191501596" duration="1672000" />
       <workItem from="1692605364334" duration="3666000" />
-      <workItem from="1692689893172" duration="429000" />
+      <workItem from="1692689893172" duration="4286000" />
+      <workItem from="1692772539548" duration="4594000" />
+      <workItem from="1692777222343" duration="3000" />
+      <workItem from="1692947113425" duration="12130000" />
+      <workItem from="1693027116461" duration="3437000" />
+      <workItem from="1693035294059" duration="1194000" />
     </task>
     <task id="LOCAL-00001" summary="add:添加calan文件，mac推送不上去">
       <created>1691983075350</created>
@@ -182,7 +248,210 @@
       <option name="project" value="LOCAL" />
       <updated>1692607125716</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="first-commit：添加新的专案">
+      <created>1692690515657</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692690515657</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加lg模式下contents06">
+      <created>1692693410226</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692693410226</updated>
+    </task>
+    <task id="LOCAL-00017" summary="添加lg模式下contents07">
+      <created>1692693417550</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692693417550</updated>
+    </task>
+    <task id="LOCAL-00018" summary="添加lg模式下contents08">
+      <created>1692693421747</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692693421747</updated>
+    </task>
+    <task id="LOCAL-00019" summary="添加lg模式下contents08">
+      <created>1692693426155</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1692693426155</updated>
+    </task>
+    <task id="LOCAL-00020" summary="添加lg模式下content06 背景图">
+      <created>1692693447735</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1692693447735</updated>
+    </task>
+    <task id="LOCAL-00021" summary="添加lg模式下content06 icon图标">
+      <created>1692693456105</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1692693456105</updated>
+    </task>
+    <task id="LOCAL-00022" summary="commit：添加tailwind展示layout模板项目">
+      <created>1692693479852</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692693479852</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update:更新tailwindcss响应式断点，使其余@media媒体查询中定义的屏幕大小一致">
+      <created>1692772864468</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1692772864468</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update:通过tailwindcss进行响应式显示">
+      <created>1692772885675</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1692772885675</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update: 修改项目介绍">
+      <created>1692774891067</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1692774891067</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add：提交readme中需要用到的图片">
+      <created>1692774910206</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1692774910206</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add：提交烂活项目的readme">
+      <created>1692776675327</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1692776675327</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add：提交烂活项目的readme">
+      <created>1692776679071</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1692776679071</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add：提交烂活项目readme中用到的图片等">
+      <created>1692776707545</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1692776707545</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add：提交content09">
+      <created>1692952228897</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952228897</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add：提交content10">
+      <created>1692952236929</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952236929</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add：提交content11">
+      <created>1692952244748</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952244748</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add：提交content11背景图">
+      <created>1692952251684</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952251684</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add：提交content12">
+      <created>1692952256078</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952256078</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add：提交content12背景图">
+      <created>1692952261086</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952261086</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add：提交content13">
+      <created>1692952265567</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952265567</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add：提交content13图标">
+      <created>1692952270703</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952270703</updated>
+    </task>
+    <task id="LOCAL-00038" summary="add:添加content14">
+      <created>1692952281282</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952281282</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update：修改start名称，以示区分">
+      <created>1692952306230</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1692952306230</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update：添加mobx和mobx-react">
+      <created>1692960608218</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1692960608218</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update：添加mobx和mobx-react">
+      <created>1692960615664</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1692960615664</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add：添加contents15 图标">
+      <created>1692960647061</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1692960647061</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update：稍微修改">
+      <created>1692960657370</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1692960657370</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,27 +470,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add:添加calan文件，mac推送不上去" />
-    <MESSAGE value="commit:提交content02" />
-    <MESSAGE value="commit:提交content03" />
-    <MESSAGE value="add:提交工厂构造器和wrapper类" />
-    <MESSAGE value="add:用于测试的页面" />
-    <MESSAGE value="add:contents04页面" />
-    <MESSAGE value="add:静态资源" />
-    <MESSAGE value="add:测试用的规范文件" />
-    <MESSAGE value="add:尝试添加koa和koa-static以配合commonjs" />
-    <MESSAGE value="update：没几把用，还是写在react里面" />
-    <MESSAGE value="update：更新了个寂寞" />
-    <MESSAGE value="update：修改改了Creator工厂类" />
-    <MESSAGE value="update：koa入口，目前没用" />
-    <MESSAGE value="update：commonjs规范，分离组件，Node为基类" />
-    <MESSAGE value="update：commonjs规范，最外层包裹Wrapper" />
-    <MESSAGE value="update：commonjs规范，Title和Text节点" />
-    <MESSAGE value="update：commonjs规范，tools工具类" />
-    <MESSAGE value="fix:区分最外层wrapper和内层wrapper" />
-    <MESSAGE value="Question: json组织形式有问题，需要修改~" />
-    <MESSAGE value="commit:提交content05 lg页面" />
-    <MESSAGE value="commit:提交content05 背景图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit:提交content05 背景图片" />
+    <MESSAGE value="添加lg模式下contents08" />
+    <MESSAGE value="添加lg模式下content06 背景图" />
+    <MESSAGE value="添加lg模式下content06 icon图标" />
+    <MESSAGE value="commit：添加tailwind展示layout模板项目" />
+    <MESSAGE value="update:更新tailwindcss响应式断点，使其余@media媒体查询中定义的屏幕大小一致" />
+    <MESSAGE value="update:通过tailwindcss进行响应式显示" />
+    <MESSAGE value="update: 修改项目介绍" />
+    <MESSAGE value="add：提交readme中需要用到的图片" />
+    <MESSAGE value="add：提交烂活项目的readme" />
+    <MESSAGE value="add：提交烂活项目readme中用到的图片等" />
+    <MESSAGE value="add：提交content09" />
+    <MESSAGE value="add：提交content10" />
+    <MESSAGE value="add：提交content11" />
+    <MESSAGE value="add：提交content11背景图" />
+    <MESSAGE value="add：提交content12" />
+    <MESSAGE value="add：提交content12背景图" />
+    <MESSAGE value="add：提交content13" />
+    <MESSAGE value="add：提交content13图标" />
+    <MESSAGE value="add:添加content14" />
+    <MESSAGE value="update：修改start名称，以示区分" />
+    <MESSAGE value="update：添加mobx和mobx-react" />
+    <MESSAGE value="add：添加contents15，完成下拉框" />
+    <MESSAGE value="add：添加contents15 图标" />
+    <MESSAGE value="update：稍微修改" />
+    <MESSAGE value="commit:提交lg下的contents15" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit:提交lg下的contents15" />
   </component>
 </project>
