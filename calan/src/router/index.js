@@ -3,6 +3,7 @@ import HeadersIndex from "../pages/headers";
 import ContentsIndex from "../pages/contents";
 import {createHashRouter} from "react-router-dom";
 import LayoutIndex from "../layout";
+import ShowListPage from "../pages/contents/showList";
 
 
 const router = [
@@ -17,6 +18,10 @@ const router = [
       {
         path: '/contents/:id',
         element: <ContentsIndex />,
+      },
+      {
+        path: '/contents',
+        element: <ShowListPage />,
       },
       {
         path: '/headers/:id',
