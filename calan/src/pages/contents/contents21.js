@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import 'video-react/dist/video-react.css';
 import {Player, BigPlayButton} from 'video-react';
 import poster from '../../assets/images/contents/contents21-poster.png';
