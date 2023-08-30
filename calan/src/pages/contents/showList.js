@@ -3,9 +3,6 @@ import {createElement, lazy, Suspense} from "react";
 
 export default function ShowListPage(){
 
-
-
-
     return(
         <div className='relative w-full pt-[10px] mt-[50px]' >
 
