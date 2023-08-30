@@ -4,6 +4,7 @@ import ContentsIndex from "../pages/contents";
 import {createHashRouter} from "react-router-dom";
 import LayoutIndex from "../layout";
 import ShowListPage from "../pages/contents/showList";
+import FeaturesIndex from "../pages/features";
 
 
 const router = [
@@ -15,6 +16,10 @@ const router = [
     path: '/',
     element: <App />,
     children:[
+      {
+        path: '/features/:id',
+        element: <FeaturesIndex />
+      },
       {
         path: '/contents/:id',
         element: <ContentsIndex />,
