@@ -11,7 +11,7 @@ export default function ShowListPage(){
 
             <div>
                 {
-                    new Array(17).fill(0).map((item, index) => (
+                    new Array(30).fill(0).map((item, index) => (
                         <Suspense fallback={<div>loading...</div>}>
                             <div className='mx-[100px] border-2 mb-[150px]'>
                                 {
