@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b30a11c-6e8e-48b0-b63a-2b3593e64b6d" name="Changes" comment="commit:提交lg下的contents15">
+    <list default="true" id="4b30a11c-6e8e-48b0-b63a-2b3593e64b6d" name="Changes" comment="update：更新features1页面，约定所有边距统一使用padding">
+      <change afterPath="$PROJECT_DIR$/calan/src/pages/features/features1/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents01.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents02.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents03.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents04.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents05.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents06.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents07.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents08.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents09.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/contents15.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/contents15.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/pages/contents/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/contents/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calan/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/features/features1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/src/pages/features/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/calan/src/pages/features/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calan/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/calan/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +56,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Projection\Rotten_work\calan\src\pages\features\features1" />
+      <recent name="F:\Projection\Rotten_work\calan\src\pages\features" />
+      <recent name="F:\Projection\Rotten_work\calan\src\pages" />
       <recent name="F:\Projection\Rotten_work\calan\src\func\component" />
     </key>
   </component>
@@ -148,210 +142,12 @@
       <workItem from="1692777222343" duration="3000" />
       <workItem from="1692947113425" duration="12130000" />
       <workItem from="1693027116461" duration="3437000" />
-      <workItem from="1693035294059" duration="1194000" />
-    </task>
-    <task id="LOCAL-00001" summary="add:添加calan文件，mac推送不上去">
-      <created>1691983075350</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691983075350</updated>
-    </task>
-    <task id="LOCAL-00002" summary="commit:提交content02">
-      <created>1692005478184</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1692005478185</updated>
-    </task>
-    <task id="LOCAL-00003" summary="commit:提交content03">
-      <created>1692088169565</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1692088169565</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add:测试用的规范文件">
-      <created>1692102077931</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1692102077931</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add:尝试添加koa和koa-static以配合commonjs">
-      <created>1692176613493</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1692176613493</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update：没几把用，还是写在react里面">
-      <created>1692176639690</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1692176639690</updated>
-    </task>
-    <task id="LOCAL-00007" summary="update：更新了个寂寞">
-      <created>1692176660278</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1692176660278</updated>
-    </task>
-    <task id="LOCAL-00008" summary="update：修改改了Creator工厂类">
-      <created>1692176693372</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1692176693372</updated>
-    </task>
-    <task id="LOCAL-00009" summary="update：koa入口，目前没用">
-      <created>1692176702153</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1692176702153</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update：commonjs规范，tools工具类">
-      <created>1692176807396</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1692176807396</updated>
-    </task>
-    <task id="LOCAL-00011" summary="fix:😘区分最外层wrapper和内层wrapper">
-      <created>1692177395308</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1692177395308</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Question: 🤐json组织形式有问题，需要修改~">
-      <created>1692193084451</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1692193084451</updated>
-    </task>
-    <task id="LOCAL-00013" summary="commit:提交content05 lg页面">
-      <created>1692607117908</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1692607117908</updated>
-    </task>
-    <task id="LOCAL-00014" summary="commit:提交content05 背景图片">
-      <created>1692607125716</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1692607125716</updated>
-    </task>
-    <task id="LOCAL-00015" summary="first-commit：添加新的专案">
-      <created>1692690515657</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1692690515657</updated>
-    </task>
-    <task id="LOCAL-00016" summary="添加lg模式下contents06">
-      <created>1692693410226</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1692693410226</updated>
-    </task>
-    <task id="LOCAL-00017" summary="添加lg模式下contents07">
-      <created>1692693417550</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1692693417550</updated>
-    </task>
-    <task id="LOCAL-00018" summary="添加lg模式下contents08">
-      <created>1692693421747</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1692693421747</updated>
-    </task>
-    <task id="LOCAL-00019" summary="添加lg模式下contents08">
-      <created>1692693426155</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1692693426155</updated>
-    </task>
-    <task id="LOCAL-00020" summary="添加lg模式下content06 背景图">
-      <created>1692693447735</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1692693447735</updated>
-    </task>
-    <task id="LOCAL-00021" summary="添加lg模式下content06 icon图标">
-      <created>1692693456105</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1692693456105</updated>
-    </task>
-    <task id="LOCAL-00022" summary="commit：添加tailwind展示layout模板项目">
-      <created>1692693479852</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1692693479852</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update:更新tailwindcss响应式断点，使其余@media媒体查询中定义的屏幕大小一致">
-      <created>1692772864468</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1692772864468</updated>
-    </task>
-    <task id="LOCAL-00024" summary="update:通过tailwindcss进行响应式显示">
-      <created>1692772885675</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1692772885675</updated>
-    </task>
-    <task id="LOCAL-00025" summary="update: 修改项目介绍">
-      <created>1692774891067</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1692774891067</updated>
-    </task>
-    <task id="LOCAL-00026" summary="add：提交readme中需要用到的图片">
-      <created>1692774910206</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1692774910206</updated>
-    </task>
-    <task id="LOCAL-00027" summary="add：提交烂活项目的readme">
-      <created>1692776675327</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1692776675327</updated>
-    </task>
-    <task id="LOCAL-00028" summary="add：提交烂活项目的readme">
-      <created>1692776679071</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1692776679071</updated>
-    </task>
-    <task id="LOCAL-00029" summary="add：提交烂活项目readme中用到的图片等">
-      <created>1692776707545</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1692776707545</updated>
+      <workItem from="1693035294059" duration="4217000" />
+      <workItem from="1693191278784" duration="707000" />
+      <workItem from="1693276890311" duration="5245000" />
+      <workItem from="1693374953474" duration="7356000" />
+      <workItem from="1693397368362" duration="2502000" />
+      <workItem from="1693468230461" duration="414000" />
     </task>
     <task id="LOCAL-00030" summary="add：提交content09">
       <created>1692952228897</created>
@@ -451,7 +247,252 @@
       <option name="project" value="LOCAL" />
       <updated>1692960657370</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="update：修改文件名称，可以直接批量遍历显示">
+      <created>1693036595186</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1693036595186</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update：修改了content15的一些内容">
+      <created>1693036626472</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1693036626472</updated>
+    </task>
+    <task id="LOCAL-00046" summary="del：删除没用的文件">
+      <created>1693036636742</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1693036636742</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update：修改了路由">
+      <created>1693036654673</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1693036654673</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add：添加content16">
+      <created>1693036670322</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1693036670322</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add：添加content16 图标">
+      <created>1693036674316</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1693036674316</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add：添加content17">
+      <created>1693036678685</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1693036678686</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add：添加content的批量展示页面">
+      <created>1693036693003</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1693036693004</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add：添加contents21">
+      <created>1693041908109</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1693041908110</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add：添加react-video库">
+      <created>1693277741048</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1693277741049</updated>
+    </task>
+    <task id="LOCAL-00054" summary="add：添加content21">
+      <created>1693277750719</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1693277750719</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add：添加content21 poster图片">
+      <created>1693277760461</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1693277760461</updated>
+    </task>
+    <task id="LOCAL-00056" summary="add：添加css">
+      <created>1693278791891</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1693278791891</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add：提交content22">
+      <created>1693278798720</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1693278798720</updated>
+    </task>
+    <task id="LOCAL-00058" summary="add：提交content22 poster图片">
+      <created>1693278804079</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1693278804079</updated>
+    </task>
+    <task id="LOCAL-00059" summary="add：提交content23">
+      <created>1693278809583</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1693278809583</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add：提交content24">
+      <created>1693281395784</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1693281395784</updated>
+    </task>
+    <task id="LOCAL-00061" summary="add：提交content24 poster图片">
+      <created>1693281407088</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1693281407089</updated>
+    </task>
+    <task id="LOCAL-00062" summary="add：提交content25商标图片">
+      <created>1693281423225</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1693281423225</updated>
+    </task>
+    <task id="LOCAL-00063" summary="add：提交content26">
+      <created>1693375429430</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1693375429430</updated>
+    </task>
+    <task id="LOCAL-00064" summary="add：提交content27">
+      <created>1693375436428</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1693375436428</updated>
+    </task>
+    <task id="LOCAL-00065" summary="commit：完成content27">
+      <created>1693377125311</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1693377125311</updated>
+    </task>
+    <task id="LOCAL-00066" summary="add：提交content27 邮箱图标">
+      <created>1693377142333</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1693377142333</updated>
+    </task>
+    <task id="LOCAL-00067" summary="update:更新展示列表">
+      <created>1693379995879</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1693379995880</updated>
+    </task>
+    <task id="LOCAL-00068" summary="add：提交contents28">
+      <created>1693380008446</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1693380008446</updated>
+    </task>
+    <task id="LOCAL-00069" summary="add：提交contents29">
+      <created>1693380011455</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1693380011455</updated>
+    </task>
+    <task id="LOCAL-00070" summary="add：提交contents29 背景图">
+      <created>1693380017018</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1693380017018</updated>
+    </task>
+    <task id="LOCAL-00071" summary="add：提交contents30">
+      <created>1693380022389</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1693380022389</updated>
+    </task>
+    <task id="LOCAL-00072" summary="add：提交contents30 背景图">
+      <created>1693380027384</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1693380027384</updated>
+    </task>
+    <task id="LOCAL-00073" summary="commit:提交features desc组件 lg">
+      <created>1693381266063</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1693381266063</updated>
+    </task>
+    <task id="LOCAL-00074" summary="commit:提交features title组件 lg">
+      <created>1693381271868</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1693381271868</updated>
+    </task>
+    <task id="LOCAL-00075" summary="commit:提交features1测试页面">
+      <created>1693381279555</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1693381279555</updated>
+    </task>
+    <task id="LOCAL-00076" summary="commit:提交features index入口页面">
+      <created>1693381289916</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1693381289916</updated>
+    </task>
+    <task id="LOCAL-00077" summary="update：修改contents展示列表">
+      <created>1693381307278</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1693381307279</updated>
+    </task>
+    <task id="LOCAL-00078" summary="update：更新features1页面，约定所有边距统一使用padding">
+      <created>1693381335969</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1693381335969</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,31 +511,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加lg模式下contents08" />
-    <MESSAGE value="添加lg模式下content06 背景图" />
-    <MESSAGE value="添加lg模式下content06 icon图标" />
-    <MESSAGE value="commit：添加tailwind展示layout模板项目" />
-    <MESSAGE value="update:更新tailwindcss响应式断点，使其余@media媒体查询中定义的屏幕大小一致" />
-    <MESSAGE value="update:通过tailwindcss进行响应式显示" />
-    <MESSAGE value="update: 修改项目介绍" />
-    <MESSAGE value="add：提交readme中需要用到的图片" />
-    <MESSAGE value="add：提交烂活项目的readme" />
-    <MESSAGE value="add：提交烂活项目readme中用到的图片等" />
-    <MESSAGE value="add：提交content09" />
-    <MESSAGE value="add：提交content10" />
-    <MESSAGE value="add：提交content11" />
-    <MESSAGE value="add：提交content11背景图" />
-    <MESSAGE value="add：提交content12" />
-    <MESSAGE value="add：提交content12背景图" />
-    <MESSAGE value="add：提交content13" />
-    <MESSAGE value="add：提交content13图标" />
-    <MESSAGE value="add:添加content14" />
-    <MESSAGE value="update：修改start名称，以示区分" />
-    <MESSAGE value="update：添加mobx和mobx-react" />
-    <MESSAGE value="add：添加contents15，完成下拉框" />
-    <MESSAGE value="add：添加contents15 图标" />
-    <MESSAGE value="update：稍微修改" />
-    <MESSAGE value="commit:提交lg下的contents15" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit:提交lg下的contents15" />
+    <MESSAGE value="add：添加content21" />
+    <MESSAGE value="add：添加content21 poster图片" />
+    <MESSAGE value="add：添加css" />
+    <MESSAGE value="add：提交content22" />
+    <MESSAGE value="add：提交content22 poster图片" />
+    <MESSAGE value="add：提交content23" />
+    <MESSAGE value="add：提交content24" />
+    <MESSAGE value="add：提交content24 poster图片" />
+    <MESSAGE value="add：提交content25商标图片" />
+    <MESSAGE value="add：提交content26" />
+    <MESSAGE value="add：提交content27" />
+    <MESSAGE value="commit：完成content27" />
+    <MESSAGE value="add：提交content27 邮箱图标" />
+    <MESSAGE value="update:更新展示列表" />
+    <MESSAGE value="add：提交contents28" />
+    <MESSAGE value="add：提交contents29" />
+    <MESSAGE value="add：提交contents29 背景图" />
+    <MESSAGE value="add：提交contents30" />
+    <MESSAGE value="add：提交contents30 背景图" />
+    <MESSAGE value="commit:提交features desc组件 lg" />
+    <MESSAGE value="commit:提交features title组件 lg" />
+    <MESSAGE value="commit:提交features1测试页面" />
+    <MESSAGE value="commit:提交features index入口页面" />
+    <MESSAGE value="update：修改contents展示列表" />
+    <MESSAGE value="update：更新features1页面，约定所有边距统一使用padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="update：更新features1页面，约定所有边距统一使用padding" />
   </component>
 </project>

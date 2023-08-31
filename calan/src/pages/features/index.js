@@ -1,9 +1,11 @@
 import DisplayBoxComponent from "../../components/DisplayBox";
-import {createElement, lazy, Suspense} from "react";
+import {createElement, lazy, Suspense, useEffect} from "react";
 import {useParams} from "react-router-dom";
+import data from './data';
 
 
 export default function FeaturesIndex(){
+
 
     const param = useParams();
 
@@ -14,7 +16,7 @@ export default function FeaturesIndex(){
             <Suspense fallback={<div>loading...</div>}>
                 <DisplayBoxComponent title={`features-${param.id}`}>
                     {
-                        createElement(lazy(() => import(`./features${param.id}`)), {})
+                        createElement(lazy(() => import(`./features${param.id}/index`)), data[param.id - 1])
                     }
                 </DisplayBoxComponent>
             </Suspense>
