@@ -10,6 +10,12 @@ const FeaturesDescWrapper = styled.div`
   font-style: normal;
   margin: 0 auto;
   
+  
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: ${props => props.$ellipse || 0};
+  
   //lg
   @media screen and (min-width: 1440px){
     max-width: ${props => props.$maxw || 730}px;
