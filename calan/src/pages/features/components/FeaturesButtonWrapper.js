@@ -12,6 +12,7 @@ const FeaturesButtonWrapper = styled.button`
   border: 2px ${props => props.$borderColor || '#FFDDA9'} solid;
   border-radius: 32px;
   position: relative;
+  color: ${props => props.$bg || '#000'};
 
   
   &:before{
