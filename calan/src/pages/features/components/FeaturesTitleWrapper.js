@@ -12,7 +12,7 @@ const FeaturesTitleWrapper = styled.div`
   
   //lg
   @media screen and (min-width: 1440px){
-    max-width: 730px;
+    max-width: ${props => props.$maxw || 730}px;
     letter-spacing: -2px;
     font-size: ${props => props.$size && TitleSizeTransform(props.$size) || TitleSizeTransform(48)};
     line-height: ${props => props.$leading && LeadingTransform(props.$leading) || LeadingTransform(56)};
